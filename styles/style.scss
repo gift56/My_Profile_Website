@@ -116,5 +116,20 @@
             }
         }
     }
-    
+    .main {
+        .Homepage {
+            .container {
+                .row {
+                    .home-info {
+                       font-family: $bodyfamily;
+                    }
+                    .home-img {
+                        img {
+                            height: 400px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

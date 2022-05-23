@@ -3,9 +3,19 @@
     min-height: 100vh;
     display: block;
     position: fixed;
+    padding: 0 30px;
     left: 270px;
     top: 0;
     right: 0;
     z-index: 0;
     opacity: 1;
+}
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+.padding-15 {
+    padding-left: 15px;
+    padding-right: 15px;
 }
