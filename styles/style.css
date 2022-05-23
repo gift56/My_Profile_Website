@@ -7,6 +7,10 @@
   opacity: 1;
 }
 
+.hidden {
+  display: none !important;
+}
+
 .container {
   max-width: 1300px;
   width: 100%;
@@ -290,5 +294,18 @@ body {
   border-left: 10px solid #ec1839;
   left: 20px;
   top: -40px;
+}
+
+.main-container .main .About .container {
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+.main-container .main .About .container .row .section-title {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%;
+  background-color: red;
 }
 /*# sourceMappingURL=style.css.map */

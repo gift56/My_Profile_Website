@@ -192,5 +192,18 @@
                 }
             }
         }
+        .About {
+            .container {
+                padding-top: 60px;
+                padding-bottom: 70px;
+                .row {
+                    .section-title {
+                        flex: 0 0 100%;
+                        max-width: 100%;
+                        background-color: red;
+                    }
+                }
+            }
+        }
     }
 }
