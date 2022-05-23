@@ -32,7 +32,7 @@
                 position: relative;
                 span {
                     font-family: $font2;
-                    font-family: 40px;
+                    font-size: 40px;
                 }
                 &::before {
                     content: " ";
@@ -117,6 +117,7 @@
         }
     }
     .main {
+        padding-left: 270px;
         .Homepage {
             display: flex;
             min-height: 100vh;
@@ -147,11 +148,11 @@
                         .Professions {
                             font-size: 30px;
                             margin: 15px 0;
-                            .typing{
+                            .typing {
                                 color: $color1;
                             }
                         }
-                        p{
+                        p {
                             font-size: 20px;
                             margin-bottom: 60px;
                             color: $textcolor;
@@ -163,7 +164,29 @@
                         flex: 0 0 45%;
                         max-width: 40%;
                         img {
+                            margin: auto;
+                            border-radius: 5px;
                             height: 400px;
+                        }
+                        &::after {
+                            content: " ";
+                            position: absolute;
+                            width: 80px;
+                            height: 80px;
+                            border-bottom: 10px solid $color1;
+                            border-right: 10px solid $color1;
+                            right: 20px;
+                            bottom: -40px;
+                        }
+                        &::before {
+                            content: " ";
+                            position: absolute;
+                            width: 80px;
+                            height: 80px;
+                            border-top: 10px solid $color1;
+                            border-left: 10px solid $color1;
+                            left: 20px;
+                            top: -40px;
                         }
                     }
                 }

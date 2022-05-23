@@ -3,12 +3,7 @@
   background-color: #e8dfec;
   min-height: 100vh;
   display: block;
-  position: fixed;
   padding: 0 30px;
-  left: 270px;
-  top: 0;
-  right: 0;
-  z-index: 0;
   opacity: 1;
 }
 
@@ -32,6 +27,13 @@
   display: inline-block;
   white-space: nowrap;
   background-color: #ec1839;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 * {
@@ -42,6 +44,7 @@
   outline: none;
   text-decoration: none;
   list-style: none;
+  border: none;
 }
 
 body {
@@ -91,7 +94,7 @@ body {
 
 .main-container .leftSide .logo a span {
   font-family: "Clicker Script", cursive;
-  font-family: 40px;
+  font-size: 40px;
 }
 
 .main-container .leftSide .logo a::before {
@@ -188,6 +191,10 @@ body {
   color: #ec1839;
 }
 
+.main-container .main {
+  padding-left: 270px;
+}
+
 .main-container .main .Homepage {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -258,6 +265,30 @@ body {
 }
 
 .main-container .main .Homepage .container .row .home-img img {
+  margin: auto;
+  border-radius: 5px;
   height: 400px;
+}
+
+.main-container .main .Homepage .container .row .home-img::after {
+  content: " ";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-bottom: 10px solid #ec1839;
+  border-right: 10px solid #ec1839;
+  right: 20px;
+  bottom: -40px;
+}
+
+.main-container .main .Homepage .container .row .home-img::before {
+  content: " ";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-top: 10px solid #ec1839;
+  border-left: 10px solid #ec1839;
+  left: 20px;
+  top: -40px;
 }
 /*# sourceMappingURL=style.css.map */
