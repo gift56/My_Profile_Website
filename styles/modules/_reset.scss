@@ -3,3 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: $bodybackground;
+    color: $bodytextcolor;
+    line-height: 1.5;
+    font-size: 16px;
+}
