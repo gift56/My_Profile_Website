@@ -56,7 +56,7 @@ body {
   color: #302e4d;
   line-height: 1.5;
   font-size: 16px;
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins" sans-serif !important;
 }
 
 .main-container .leftSide {
@@ -382,7 +382,30 @@ body {
       -ms-flex: 0 0 50%;
           flex: 0 0 50%;
   max-width: 50%;
-  background-color: red;
+}
+
+.main-container .main .About .container .about-content .personal-info .info-item p {
+  font-weight: 700;
+  padding: 10px 0;
+  color: #302e4d;
+  border-bottom: 1px solid #fafaff;
+  font-family: "Poppins" sans-serif;
+}
+
+.main-container .main .About .container .about-content .personal-info .info-item p span {
+  font-weight: 400;
+  color: #504e70;
+  margin-left: 4px;
+  display: inline-block;
+}
+
+.main-container .main .About .container .about-content .buttons {
+  margin-top: 30px;
+}
+
+.main-container .main .About .container .about-content .buttons a {
+  margin-right: 15px;
+  margin-top: 10px;
 }
 
 .main-container .main .About .container .about-content .skills {

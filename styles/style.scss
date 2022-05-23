@@ -253,16 +253,36 @@
                         flex: 0 0 60%;
                         max-width: 60%;
                         margin-top: 40px;
-                        .info-item{
+                        .info-item {
                             flex: 0 0 50%;
                             max-width: 50%;
-                            background-color: red;
+                            p {
+                                font-weight: 700;
+                                padding: 10px 0;
+                                color: $bodytextcolor;
+                                border-bottom: 1px solid $bodybackground;
+                                font-family: $bodyfamily;
+
+                                span{
+                                    font-weight: 400;
+                                    color: $textcolor;
+                                    margin-left: 4px;
+                                    display: inline-block;
+                                }
+                            }
                         }
                     }
-                    .skills{
+                    .buttons {
+                        margin-top: 30px;
+                        a {
+                            margin-right: 15px;
+                            margin-top: 10px;
+                        }
+                    }
+                    .skills {
                         flex: 0 0 40%;
                         max-width: 40%;
-                        margin-top: 40px; 
+                        margin-top: 40px;
                     }
                 }
             }
