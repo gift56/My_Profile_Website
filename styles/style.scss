@@ -31,7 +31,7 @@
                 letter-spacing: 5px;
                 position: relative;
                 span {
-                    font-family: "Clicker Script", cursive;
+                    font-family: $font2;
                     font-family: 40px;
                 }
                 &::before {
@@ -118,12 +118,50 @@
     }
     .main {
         .Homepage {
+            display: flex;
+            min-height: 100vh;
+            justify-content: center;
+            align-items: center;
+            color: $bodytextcolor;
             .container {
                 .row {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-left: -15px;
+                    margin-right: -15px;
+                    position: relative;
                     .home-info {
-                       font-family: $bodyfamily;
+                        flex: 0 0 60%;
+                        max-width: 60%;
+                        font-family: $bodyfamily;
+                        .Welcome-greetings {
+                            font-size: 28px;
+                            margin: 15px 0;
+                            .name {
+                                font-family: $font2;
+                                font-size: 30px;
+                                font-weight: 700;
+                                color: $color1;
+                            }
+                        }
+                        .Professions {
+                            font-size: 30px;
+                            margin: 15px 0;
+                            .typing{
+                                color: $color1;
+                            }
+                        }
+                        p{
+                            font-size: 20px;
+                            margin-bottom: 70px;
+                            color: $textcolor;
+                        }
                     }
                     .home-img {
+                        position: relative;
+                        text-align: center;
+                        flex: 0 0 45%;
+                        max-width: 40%;
                         img {
                             height: 400px;
                         }
