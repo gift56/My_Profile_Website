@@ -1,14 +1,38 @@
+.section {
+  background-color: #e8dfec;
+  min-height: 100vh;
+  display: block;
+  position: fixed;
+  left: 270px;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  opacity: 1;
+}
+
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
 }
 
 body {
-  background-color: #f0f0ff;
+  background-color: #fafaff;
   color: #302e4d;
   line-height: 1.5;
   font-size: 16px;
+}
+
+.main-container .aside {
+  width: 270px;
+  background-color: #fdf7ff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: 1111;
 }
 /*# sourceMappingURL=style.css.map */

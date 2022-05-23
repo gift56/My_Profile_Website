@@ -1,3 +1,14 @@
 @import "./modules/varibles";
 @import "./modules/classes";
 @import "./modules/reset";
+.main-container {
+    .aside {
+        width: 270px;
+        background-color: $asidebg;
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        z-index: 1111;
+    }
+}
