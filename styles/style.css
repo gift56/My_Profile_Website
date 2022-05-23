@@ -27,6 +27,11 @@
   font-size: 16px;
   font-weight: 500;
   padding: 12px 35px;
+  color: #ffffffff;
+  border-radius: 40px;
+  display: inline-block;
+  white-space: nowrap;
+  background-color: #ec1839;
 }
 
 * {
@@ -239,7 +244,7 @@ body {
 
 .main-container .main .Homepage .container .row .home-info p {
   font-size: 20px;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
   color: #504e70;
 }
 
