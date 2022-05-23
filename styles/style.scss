@@ -4,10 +4,9 @@
 @import "./modules/classes";
 @import "./modules/reset";
 .main-container {
-    .aside {
+    .leftSide {
         width: 270px;
         background-color: $asidebg;
-
         border-right: 1px solid $bg;
         padding: 30px;
         display: flex;
@@ -54,6 +53,45 @@
                     border-right: 5px solid $color1;
                     top: 0;
                     right: 0;
+                }
+            }
+        }
+        .navbar {
+            display: none;
+            justify-content: center;
+            align-items: center;
+            width: 45px;
+            height: 40px;
+            border: 1px solid $bg;
+            cursor: pointer;
+            position: fixed;
+            left: 300px;
+            top: 20px;
+            border-radius: 5px;
+            background-color: $asidebg;
+            span {
+                width: 18px;
+                height: 2px;
+                background-color: $color1;
+                display: inline-block;
+                position: relative;
+                &::before {
+                    content: " ";
+                    position: absolute;
+                    width: 18px;
+                    height: 2px;
+                    background-color: $color1;
+                    top: -6px;
+                    left: 0;
+                }
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    width: 18px;
+                    height: 2px;
+                    background-color: $color1;
+                    bottom: -6px;
+                    left: 0;
                 }
             }
         }

@@ -29,7 +29,7 @@ body {
   font-family: "Poppins" sans-serif;
 }
 
-.main-container .aside {
+.main-container .leftSide {
   width: 270px;
   background-color: #fdf7ff;
   border-right: 1px solid #e8dfec;
@@ -50,14 +50,14 @@ body {
   z-index: 10;
 }
 
-.main-container .aside .logo {
+.main-container .leftSide .logo {
   position: absolute;
   top: 50px;
   font-size: 30px;
   text-transform: capitalize;
 }
 
-.main-container .aside .logo a {
+.main-container .leftSide .logo a {
   color: #302e4d;
   font-weight: 700;
   padding: 15px 20px;
@@ -66,12 +66,12 @@ body {
   position: relative;
 }
 
-.main-container .aside .logo a span {
+.main-container .leftSide .logo a span {
   font-family: "Clicker Script", cursive;
   font-family: 40px;
 }
 
-.main-container .aside .logo a::before {
+.main-container .leftSide .logo a::before {
   content: " ";
   position: absolute;
   width: 20px;
@@ -82,7 +82,7 @@ body {
   left: 0;
 }
 
-.main-container .aside .logo a::after {
+.main-container .leftSide .logo a::after {
   content: " ";
   position: absolute;
   width: 20px;
@@ -93,16 +93,63 @@ body {
   right: 0;
 }
 
-.main-container .aside .nav {
+.main-container .leftSide .navbar {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 45px;
+  height: 40px;
+  border: 1px solid #e8dfec;
+  cursor: pointer;
+  position: fixed;
+  left: 300px;
+  top: 20px;
+  border-radius: 5px;
+  background-color: #fdf7ff;
+}
+
+.main-container .leftSide .navbar span {
+  width: 18px;
+  height: 2px;
+  background-color: #ec1839;
+  display: inline-block;
+  position: relative;
+}
+
+.main-container .leftSide .navbar span::before {
+  content: " ";
+  position: absolute;
+  width: 18px;
+  height: 2px;
+  background-color: #ec1839;
+  top: -6px;
+  left: 0;
+}
+
+.main-container .leftSide .navbar span::after {
+  content: " ";
+  position: absolute;
+  width: 18px;
+  height: 2px;
+  background-color: #ec1839;
+  bottom: -6px;
+  left: 0;
+}
+
+.main-container .leftSide .nav {
   margin-top: 50px;
 }
 
-.main-container .aside .nav li {
+.main-container .leftSide .nav li {
   margin-bottom: 20px;
   display: block;
 }
 
-.main-container .aside .nav li a {
+.main-container .leftSide .nav li a {
   font-size: 18px;
   font-weight: 600;
   display: -webkit-box;
@@ -114,7 +161,7 @@ body {
   padding: 5px 15px;
 }
 
-.main-container .aside .nav li a.active {
+.main-container .leftSide .nav li a.active {
   color: #ec1839;
 }
 /*# sourceMappingURL=style.css.map */
