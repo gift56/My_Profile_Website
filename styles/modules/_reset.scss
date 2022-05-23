@@ -4,10 +4,12 @@
     box-sizing: border-box;
     outline: none;
     text-decoration: none;
+    list-style: none;
 }
 body {
     background-color: $bodybackground;
     color: $bodytextcolor;
     line-height: 1.5;
     font-size: 16px;
+    font-family: $bodyfamily;
 }

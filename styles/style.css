@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap");
 .section {
   background-color: #e8dfec;
   min-height: 100vh;
@@ -11,10 +11,6 @@
   opacity: 1;
 }
 
-ul {
-  list-style: none;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +18,7 @@ ul {
           box-sizing: border-box;
   outline: none;
   text-decoration: none;
+  list-style: none;
 }
 
 body {
@@ -29,11 +26,13 @@ body {
   color: #302e4d;
   line-height: 1.5;
   font-size: 16px;
+  font-family: "Poppins" sans-serif;
 }
 
 .main-container .aside {
   width: 270px;
   background-color: #fdf7ff;
+  border-right: 1px solid #e8dfec;
   padding: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -48,7 +47,7 @@ body {
   left: 0;
   top: 0;
   height: 100%;
-  z-index: 1111;
+  z-index: 10;
 }
 
 .main-container .aside .logo {
@@ -56,5 +55,66 @@ body {
   top: 50px;
   font-size: 30px;
   text-transform: capitalize;
+}
+
+.main-container .aside .logo a {
+  color: #302e4d;
+  font-weight: 700;
+  padding: 15px 20px;
+  font-size: 30px;
+  letter-spacing: 5px;
+  position: relative;
+}
+
+.main-container .aside .logo a span {
+  font-family: "Clicker Script", cursive;
+  font-family: 40px;
+}
+
+.main-container .aside .logo a::before {
+  content: " ";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-bottom: 5px solid #ec1839;
+  border-left: 5px solid #ec1839;
+  bottom: 0;
+  left: 0;
+}
+
+.main-container .aside .logo a::after {
+  content: " ";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-top: 5px solid #ec1839;
+  border-right: 5px solid #ec1839;
+  top: 0;
+  right: 0;
+}
+
+.main-container .aside .nav {
+  margin-top: 50px;
+}
+
+.main-container .aside .nav li {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.main-container .aside .nav li a {
+  font-size: 18px;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+  border-bottom: 1px solid #e8dfec;
+  color: #302e4d;
+  padding: 5px 15px;
+}
+
+.main-container .aside .nav li a.active {
+  color: #ec1839;
 }
 /*# sourceMappingURL=style.css.map */

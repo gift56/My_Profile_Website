@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 @import "./modules/varibles";
 @import "./modules/classes";
@@ -7,6 +7,8 @@
     .aside {
         width: 270px;
         background-color: $asidebg;
+
+        border-right: 1px solid $bg;
         padding: 30px;
         display: flex;
         justify-content: center;
@@ -15,13 +17,65 @@
         left: 0;
         top: 0;
         height: 100%;
-        z-index: 1111;
+        z-index: 10;
 
         .logo {
             position: absolute;
             top: 50px;
             font-size: 30px;
             text-transform: capitalize;
+            a {
+                color: $bodytextcolor;
+                font-weight: 700;
+                padding: 15px 20px;
+                font-size: 30px;
+                letter-spacing: 5px;
+                position: relative;
+                span {
+                    font-family: "Clicker Script", cursive;
+                    font-family: 40px;
+                }
+                &::before {
+                    content: " ";
+                    position: absolute;
+                    width: 20px;
+                    height: 20px;
+                    border-bottom: 5px solid $color1;
+                    border-left: 5px solid $color1;
+                    bottom: 0;
+                    left: 0;
+                }
+                &::after {
+                    content: " ";
+                    position: absolute;
+                    width: 20px;
+                    height: 20px;
+                    border-top: 5px solid $color1;
+                    border-right: 5px solid $color1;
+                    top: 0;
+                    right: 0;
+                }
+            }
+        }
+        .nav {
+            margin-top: 50px;
+            li {
+                margin-bottom: 20px;
+                display: block;
+                a {
+                    font-size: 18px;
+                    font-weight: 600;
+                    display: flex;
+                    gap: 12px;
+                    border-bottom: 1px solid $bg;
+                    color: $bodytextcolor;
+                    padding: 5px 15px;
+
+                    &.active {
+                        color: $color1;
+                    }
+                }
+            }
         }
     }
 }
