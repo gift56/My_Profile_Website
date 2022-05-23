@@ -200,7 +200,52 @@
                     .section-title {
                         flex: 0 0 100%;
                         max-width: 100%;
-                        background-color: red;
+                        margin-bottom: 60px;
+                        h2 {
+                            font-size: 40px;
+                            color: $bodytextcolor;
+                            font-weight: 700;
+                            position: relative;
+                            &::before {
+                                content: " ";
+                                height: 4px;
+                                width: 50px;
+                                background-color: $color1;
+                                position: absolute;
+                                top: 100%;
+                                left: 0;
+                            }
+                            &::after {
+                                content: " ";
+                                height: 4px;
+                                width: 25px;
+                                background-color: $color1;
+                                position: absolute;
+                                top: 100%;
+                                left: 0;
+                                margin-top: 8px;
+                            }
+                        }
+                    }
+                }
+                .about-content {
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                    .about-text {
+                        h3 {
+                            font-size: 25px;
+                            margin-bottom: 15px;
+                            font-weight: 700;
+                            color: $bodytextcolor;
+                            span{
+                                color: $color1;
+                            }
+                        }
+                        p{
+                            font-size: 16px;
+                            line-height: 25px;
+                            color: $textcolor;
+                        }
                     }
                 }
             }

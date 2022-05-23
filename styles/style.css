@@ -306,6 +306,58 @@ body {
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
   max-width: 100%;
-  background-color: red;
+  margin-bottom: 60px;
+}
+
+.main-container .main .About .container .row .section-title h2 {
+  font-size: 40px;
+  color: #302e4d;
+  font-weight: 700;
+  position: relative;
+}
+
+.main-container .main .About .container .row .section-title h2::before {
+  content: " ";
+  height: 4px;
+  width: 50px;
+  background-color: #ec1839;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.main-container .main .About .container .row .section-title h2::after {
+  content: " ";
+  height: 4px;
+  width: 25px;
+  background-color: #ec1839;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 8px;
+}
+
+.main-container .main .About .container .about-content {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.main-container .main .About .container .about-content .about-text h3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: #302e4d;
+}
+
+.main-container .main .About .container .about-content .about-text h3 span {
+  color: #ec1839;
+}
+
+.main-container .main .About .container .about-content .about-text p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #504e70;
 }
 /*# sourceMappingURL=style.css.map */
