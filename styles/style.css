@@ -52,7 +52,7 @@
 }
 
 body {
-  background-color: #fafaff;
+  background-color: #f2f2ff;
   color: #302e4d;
   line-height: 1.5;
   font-size: 16px;
@@ -388,7 +388,7 @@ body {
   font-weight: 700;
   padding: 10px 0;
   color: #302e4d;
-  border-bottom: 1px solid #fafaff;
+  border-bottom: 1px solid #f2f2ff;
   font-family: "Poppins" sans-serif;
 }
 
@@ -420,5 +420,41 @@ body {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.main-container .main .About .container .about-content .skills .skill-item h5 {
+  line-height: 40px;
+  font-weight: 600;
+  font-size: 17px;
+  color: #302e4d;
+  text-transform: capitalize;
+}
+
+.main-container .main .About .container .about-content .skills .skill-item .progress {
+  width: 100%;
+  height: 7px;
+  background-color: #f2f2ff;
+  border-radius: 4px;
+  position: relative;
+}
+
+.main-container .main .About .container .about-content .skills .skill-item .progress .progress-in {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-radius: 4px;
+  background-color: #ec1839;
+}
+
+.main-container .main .About .container .about-content .skills .skill-item .progress .skill-percent {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  color: #302e4d;
+  font-weight: 400;
+  line-height: 40px;
 }
 /*# sourceMappingURL=style.css.map */
