@@ -283,6 +283,9 @@
                         flex: 0 0 40%;
                         max-width: 40%;
                         margin-top: 40px;
+                        .skill-item {
+                            flex: 0 0 100%;
+                        }
                     }
                 }
             }

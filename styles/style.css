@@ -415,4 +415,10 @@ body {
   max-width: 40%;
   margin-top: 40px;
 }
+
+.main-container .main .About .container .about-content .skills .skill-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+}
 /*# sourceMappingURL=style.css.map */
