@@ -5,10 +5,21 @@
     .aside {
         width: 270px;
         background-color: $asidebg;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         position: fixed;
         left: 0;
         top: 0;
         height: 100%;
         z-index: 1111;
+
+        .logo {
+            position: absolute;
+            top: 50px;
+            font-size: 30px;
+            text-transform: capitalize;
+        }
     }
 }
