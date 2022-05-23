@@ -197,6 +197,8 @@
                 padding-top: 60px;
                 padding-bottom: 70px;
                 .row {
+                    display: flex;
+                    flex-wrap: wrap;
                     .section-title {
                         flex: 0 0 100%;
                         max-width: 100%;
@@ -237,15 +239,30 @@
                             margin-bottom: 15px;
                             font-weight: 700;
                             color: $bodytextcolor;
-                            span{
+                            span {
                                 color: $color1;
                             }
                         }
-                        p{
+                        p {
                             font-size: 16px;
                             line-height: 25px;
                             color: $textcolor;
                         }
+                    }
+                    .personal-info {
+                        flex: 0 0 60%;
+                        max-width: 60%;
+                        margin-top: 40px;
+                        .info-item{
+                            flex: 0 0 50%;
+                            max-width: 50%;
+                            background-color: red;
+                        }
+                    }
+                    .skills{
+                        flex: 0 0 40%;
+                        max-width: 40%;
+                        margin-top: 40px; 
                     }
                 }
             }

@@ -301,6 +301,14 @@ body {
   padding-bottom: 70px;
 }
 
+.main-container .main .About .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .main-container .main .About .container .row .section-title {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 100%;
@@ -359,5 +367,29 @@ body {
   font-size: 16px;
   line-height: 25px;
   color: #504e70;
+}
+
+.main-container .main .About .container .about-content .personal-info {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+  max-width: 60%;
+  margin-top: 40px;
+}
+
+.main-container .main .About .container .about-content .personal-info .info-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  max-width: 50%;
+  background-color: red;
+}
+
+.main-container .main .About .container .about-content .skills {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+  max-width: 40%;
+  margin-top: 40px;
 }
 /*# sourceMappingURL=style.css.map */
