@@ -456,8 +456,33 @@
             .container {
                 padding-top: 60px;
                 padding-bottom: 50px;
-                // .row {
-                // }
+                .row {
+                    .contactMe-infoItem{
+                        flex: 0 0 25%;
+                        max-width: 25%;
+                        text-align: center;
+                        .icon{
+                            display: inline-block;
+                            .fa-solid{
+                                font-size: 25px;
+                                color: $color1;
+                            }
+                            h4{
+                                font-size: 20px;
+                                font-weight: 700;
+                                color: $bodytextcolor;
+                                text-transform: capitalize;
+                                margin: 15px 0 5px;
+                            }
+                            p{
+                                font-size: 18px;
+                                font-weight: 400;
+                                line-height: 25px;
+                                color: $textcolor;
+                            }
+                        }
+                    }
+                }
                 .contact-me-title {
                     text-align: center;
                     font-size: 25px;
@@ -468,7 +493,8 @@
                 .contactMe-subTitle{
                     text-align: center;
                     font-size: 15px;
-                    color: $bodytextcolor;  
+                    color: $bodytextcolor; 
+                    margin-bottom: 60px; 
                 }
             }
         }
