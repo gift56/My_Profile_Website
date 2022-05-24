@@ -134,6 +134,17 @@ body {
   right: 0;
   top: 60px;
   padding: 15px;
+  width: 200px;
+  border: 1px solid #e8dfec;
+  background-color: #fdf7ff;
+  z-index: 111111;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.style-switcher .s-icon {
+  position: absolute;
+  height: 40px;
 }
 
 .main-container .leftSide {
