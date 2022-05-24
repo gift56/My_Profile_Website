@@ -90,6 +90,26 @@
   margin-top: 8px;
 }
 
+.color-1 {
+  color: #ec1839;
+}
+
+.color-2 {
+  color: #fa5b0f;
+}
+
+.color-3 {
+  color: #37b182;
+}
+
+.color-4 {
+  color: #1854b4;
+}
+
+.color-5 {
+  color: #f021b2;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -103,10 +123,17 @@
 
 body {
   background-color: #f2f2ff;
-  color: #302e4d;
+  color: #302e4d !important;
   line-height: 1.5;
   font-size: 16px;
   font-family: "Poppins" sans-serif !important;
+}
+
+.style-switcher {
+  position: fixed;
+  right: 0;
+  top: 60px;
+  padding: 15px;
 }
 
 .main-container .leftSide {

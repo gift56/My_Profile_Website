@@ -1,3 +1,4 @@
+@import "./varibles";
 * {
     margin: 0;
     padding: 0;
@@ -9,8 +10,14 @@
 }
 body {
     background-color: $bodybackground;
-    color: $bodytextcolor;
+    color: $bodytextcolor !important;
     line-height: 1.5;
     font-size: 16px;
     font-family: $bodyfamily !important;
+}
+.style-switcher{
+    position: fixed;
+    right: 0;
+    top: 60px;
+    padding: 15px;
 }
