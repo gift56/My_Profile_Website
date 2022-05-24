@@ -494,4 +494,14 @@ body {
   border: 1px solid #e8dfec;
   border-radius: 10px;
 }
+
+.main-container .main .About .container .about-content .timeline-box .timeline .timeline-item {
+  position: relative;
+  padding-left: 37px;
+  padding-bottom: 50px;
+}
+
+.main-container .main .About .container .about-content .timeline-box .timeline .timeline-item:last-child {
+  padding-bottom: 0;
+}
 /*# sourceMappingURL=style.css.map */

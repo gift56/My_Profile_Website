@@ -334,13 +334,21 @@
                     .timeline-box {
                         flex: 0 0 100%;
                         max-width: 100%;
-                        .timeline{
+                        .timeline {
                             position: relative;
                             background-color: $asidebg;
                             width: 100%;
                             padding: 30px 15px;
                             border: 1px solid $bg;
                             border-radius: 10px;
+                            .timeline-item {
+                                position: relative;
+                                padding-left: 37px;
+                                padding-bottom: 50px;
+                                &:last-child {
+                                    padding-bottom: 0;
+                                }
+                            }
                         }
                     }
                 }
