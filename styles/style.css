@@ -163,23 +163,23 @@ body {
   cursor: pointer;
 }
 
-.style-switcher .colors span:nth-child(1) {
+.style-switcher .colors .color-1 {
   background-color: #ec1839;
 }
 
-.style-switcher .colors span:nth-child(2) {
+.style-switcher .colors .color-2 {
   background-color: #fa5b0f;
 }
 
-.style-switcher .colors span:nth-child(3) {
+.style-switcher .colors .color-3 {
   background-color: #37b182;
 }
 
-.style-switcher .colors span:nth-child(4) {
+.style-switcher .colors .color-4 {
   background-color: #1854b4;
 }
 
-.style-switcher .colors span:last-child {
+.style-switcher .colors .color-5 {
   background-color: #f021b2;
 }
 

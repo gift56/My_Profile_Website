@@ -7,5 +7,4 @@ const closeSwitch = () => {
         switchContent.classList.remove("open");
     }
 }
-
 window.addEventListener("scroll", closeSwitch);

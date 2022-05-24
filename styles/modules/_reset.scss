@@ -50,21 +50,22 @@ body {
             height: 30px;
             border-radius: 100%;
             cursor: pointer;
-            &:nth-child(1) {
-                background-color: $color1;
-            }
-            &:nth-child(2) {
-                background-color: $color2;
-            }
-            &:nth-child(3) {
-                background-color: $color3;
-            }
-            &:nth-child(4) {
-                background-color: $color4;
-            }
-            &:last-child {
-                background-color: $color5;
-            }
+        }
+        .color-1 {
+            background-color: $color1;
+        }
+        .color-2 {
+            background-color: $color2;
+        }
+        .color-3 {
+            background-color: $color3;
+        }
+
+        .color-4 {
+            background-color: $color4;
+        }
+        .color-5 {
+            background-color: $color5;
         }
     }
     .s-icon {
