@@ -452,5 +452,25 @@
                 }
             }
         }
+        .contact {
+            .container {
+                padding-top: 60px;
+                padding-bottom: 50px;
+                // .row {
+                // }
+                .contact-me-title {
+                    text-align: center;
+                    font-size: 25px;
+                    margin-bottom: 20px;
+                    font-weight: 600;
+                    color: $color1;
+                }
+                .contactMe-subTitle{
+                    text-align: center;
+                    font-size: 15px;
+                    color: $bodytextcolor;  
+                }
+            }
+        }
     }
 }

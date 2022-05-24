@@ -661,4 +661,23 @@ body {
   display: block;
   width: 100%;
 }
+
+.main-container .main .contact .container {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.main-container .main .contact .container .contact-me-title {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #ec1839;
+}
+
+.main-container .main .contact .container .contactMe-subTitle {
+  text-align: center;
+  font-size: 15px;
+  color: #302e4d;
+}
 /*# sourceMappingURL=style.css.map */
