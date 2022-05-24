@@ -634,10 +634,31 @@ body {
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
   max-width: 100%;
+  margin-bottom: 40px;
 }
 
 .main-container .main .portifolio .container .row .portifolio-heading h2 {
   color: #302e4d;
   font-weight: 500;
+}
+
+.main-container .main .portifolio .container .row .portfolio-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.33%;
+          flex: 0 0 33.33%;
+  max-width: 33.33%;
+  margin-bottom: 30px;
+}
+
+.main-container .main .portifolio .container .row .portfolio-item .inner {
+  border: 6px solid #fdf7ff;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.main-container .main .portifolio .container .row .portfolio-item .inner .portfolio-img img {
+  display: block;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

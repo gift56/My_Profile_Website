@@ -418,17 +418,35 @@
                 }
             }
         }
-        .portifolio{
-            .container{
+        .portifolio {
+            .container {
                 padding-top: 60px;
                 padding-bottom: 50px;
-                .row{
-                    .portifolio-heading{
+                .row {
+                    .portifolio-heading {
                         flex: 0 0 100%;
                         max-width: 100%;
-                        h2{
+                        margin-bottom: 40px;
+                        h2 {
                             color: $bodytextcolor;
                             font-weight: 500;
+                        }
+                    }
+                    .portfolio-item {
+                        flex: 0 0 33.33%;
+                        max-width: 33.33%;
+                        margin-bottom: 30px;
+                        .inner {
+                            border: 6px solid $asidebg;
+                            border-radius: 10px;
+                            overflow: hidden;
+                            cursor: pointer;
+                            .portfolio-img {
+                                img {
+                                    display: block;
+                                    width: 100%;
+                                }
+                            }
                         }
                     }
                 }
