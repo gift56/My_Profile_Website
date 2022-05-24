@@ -278,6 +278,7 @@
                             flex: 0 0 100%;
                             max-width: 100%;
                             margin-bottom: 20px;
+
                             h5 {
                                 line-height: 40px;
                                 font-weight: 600;
@@ -403,6 +404,10 @@
                             flex: 0 0 50%;
                             max-width: 50%;
                         }
+                        @media screen and (max-width: 767px) {
+                            flex: 0 0 100%;
+                            max-width: 100%;
+                        }
                         .inner {
                             background-color: $asidebg;
                             border: 1px solid $bg;
@@ -474,6 +479,10 @@
                             flex: 0 0 50%;
                             max-width: 50%;
                         }
+                        @media screen and (max-width: 767px) {
+                            flex: 0 0 100%;
+                            max-width: 100%;
+                        }
                         .inner {
                             border: 6px solid $asidebg;
                             border-radius: 10px;
@@ -504,6 +513,10 @@
                             flex: 0 0 50%;
                             max-width: 50%;
                         }
+                        @media screen and (max-width: 767px) {
+                            flex: 0 0 100%;
+                            max-width: 100%;
+                        }
                         .icon {
                             display: inline-block;
                             .fa-solid {
@@ -531,6 +544,10 @@
                         .column-6 {
                             flex: 0 0 50%;
                             max-width: 50%;
+                            @media screen and (max-width: 767px) {
+                                flex: 0 0 100%;
+                                max-width: 100%;
+                            }
                         }
                         .column-12 {
                             flex: 0 0 100%;

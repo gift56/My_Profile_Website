@@ -639,6 +639,15 @@ body {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .main-container .main .service .container .row .service-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
 .main-container .main .service .container .row .service-item .inner {
   background-color: #fdf7ff;
   border: 1px solid #e8dfec;
@@ -731,6 +740,15 @@ body {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .main-container .main .portifolio .container .row .portfolio-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
 .main-container .main .portifolio .container .row .portfolio-item .inner {
   border: 6px solid #fdf7ff;
   border-radius: 10px;
@@ -763,6 +781,15 @@ body {
         -ms-flex: 0 0 50%;
             flex: 0 0 50%;
     max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main-container .main .contact .container .row .contactMe-infoItem {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
   }
 }
 
@@ -802,6 +829,15 @@ body {
       -ms-flex: 0 0 50%;
           flex: 0 0 50%;
   max-width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  .main-container .main .contact .container .row .contact-form .column-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
 
 .main-container .main .contact .container .row .contact-form .column-12 {
