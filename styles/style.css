@@ -553,4 +553,42 @@ body {
   color: #504e70;
   line-height: 25px;
 }
+
+.main-container .main .service .row .sevice-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.33%;
+          flex: 0 0 33.33%;
+  max-width: 33.33%;
+  margin-bottom: 30px;
+}
+
+.main-container .main .service .row .sevice-item .inner {
+  background-color: #fdf7ff;
+  border: 1px solid #e8dfec;
+  padding: 30px 10px;
+  border-radius: 10px;
+  text-align: center;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.main-container .main .service .row .sevice-item .inner:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+          box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+
+.main-container .main .service .row .sevice-item .inner .icon {
+  display: block;
+  margin: 0 auto 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+
+.main-container .main .service .row .sevice-item .inner .icon .fas {
+  font-size: 40px;
+  line-height: 60px;
+  color: #ec1839;
+}
 /*# sourceMappingURL=style.css.map */
