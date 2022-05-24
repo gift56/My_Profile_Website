@@ -418,5 +418,21 @@
                 }
             }
         }
+        .portifolio{
+            .container{
+                padding-top: 60px;
+                padding-bottom: 50px;
+                .row{
+                    .portifolio-heading{
+                        flex: 0 0 100%;
+                        max-width: 100%;
+                        h2{
+                            color: $bodytextcolor;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

@@ -623,4 +623,21 @@ body {
   line-height: 25px;
   color: #504e70;
 }
+
+.main-container .main .portifolio .container {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.main-container .main .portifolio .container .row .portifolio-heading {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.main-container .main .portifolio .container .row .portifolio-heading h2 {
+  color: #302e4d;
+  font-weight: 500;
+}
 /*# sourceMappingURL=style.css.map */
