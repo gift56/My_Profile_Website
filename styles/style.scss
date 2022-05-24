@@ -308,7 +308,7 @@
                                     border-radius: 4px;
                                     background-color: $color1;
                                 }
-                                .skill-percent{
+                                .skill-percent {
                                     position: absolute;
                                     top: -40px;
                                     right: 0;
@@ -318,6 +318,10 @@
                                 }
                             }
                         }
+                    }
+                    .education,
+                    .experience {
+                        flex: 0 0 50%;
                     }
                 }
             }

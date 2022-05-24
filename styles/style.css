@@ -457,4 +457,11 @@ body {
   font-weight: 400;
   line-height: 40px;
 }
+
+.main-container .main .About .container .about-content .education,
+.main-container .main .About .container .about-content .experience {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
 /*# sourceMappingURL=style.css.map */
