@@ -17,6 +17,9 @@
         top: 0;
         height: 100%;
         z-index: 10;
+        @media screen and (max-width: 1199px) {
+            left: -270px;
+        }
 
         .logo {
             position: absolute;
@@ -118,6 +121,9 @@
     }
     .main {
         padding-left: 270px;
+        @media screen and (max-width: 1199px) {
+            padding-left: 0;
+        }
         .Homepage {
             display: flex;
             min-height: 100vh;
@@ -135,6 +141,10 @@
                         flex: 0 0 60%;
                         max-width: 60%;
                         font-family: $bodyfamily;
+                        @media screen and (max-width: 991px) {
+                            flex: 0 0 100%;
+                            max-width: 100%;
+                        }
                         .Welcome-greetings {
                             font-size: 28px;
                             margin: 15px 0;
@@ -163,6 +173,9 @@
                         text-align: center;
                         flex: 0 0 45%;
                         max-width: 40%;
+                        @media screen and (max-width: 991px) {
+                            display: none;
+                        }
                         img {
                             margin: auto;
                             border-radius: 5px;
@@ -219,6 +232,10 @@
                         flex: 0 0 60%;
                         max-width: 60%;
                         margin-top: 40px;
+                        @media screen and (max-width: 767px) {
+                            flex: 0 0 100%;
+                            max-width: 100%;
+                        }
                         .info-item {
                             flex: 0 0 50%;
                             max-width: 50%;
@@ -234,6 +251,10 @@
                                     color: $textcolor;
                                     margin-left: 4px;
                                     display: inline-block;
+                                    @media screen and (max-width: 1199px) {
+                                        display: block;
+                                        margin-left: 0;
+                                    }
                                 }
                             }
                         }
@@ -249,6 +270,10 @@
                         flex: 0 0 40%;
                         max-width: 40%;
                         margin-top: 40px;
+                        @media screen and (max-width: 767px) {
+                            flex: 0 0 100%;
+                            max-width: 100%;
+                        }
                         .skill-item {
                             flex: 0 0 100%;
                             max-width: 100%;
@@ -290,7 +315,12 @@
                         flex: 0 0 50%;
                         max-width: 50%;
                         margin-top: 30px;
+                        @media screen and (max-width: 767px) {
+                            flex: 0 0 100%;
+                            max-width: 100%;
+                        }
                     }
+
                     .title {
                         font-size: 28px;
                         font-weight: 700;
@@ -365,10 +395,14 @@
                 padding-top: 60px;
                 padding-bottom: 50px;
                 .row {
-                    .sevice-item {
+                    .service-item {
                         flex: 0 0 33.33%;
                         max-width: 33.33%;
                         margin-bottom: 30px;
+                        @media screen and (max-width: 991px) {
+                            flex: 0 0 50%;
+                            max-width: 50%;
+                        }
                         .inner {
                             background-color: $asidebg;
                             border: 1px solid $bg;
@@ -436,6 +470,10 @@
                         flex: 0 0 33.33%;
                         max-width: 33.33%;
                         margin-bottom: 30px;
+                        @media screen and (max-width: 991px) {
+                            flex: 0 0 50%;
+                            max-width: 50%;
+                        }
                         .inner {
                             border: 6px solid $asidebg;
                             border-radius: 10px;
@@ -457,29 +495,71 @@
                 padding-top: 60px;
                 padding-bottom: 50px;
                 .row {
-                    .contactMe-infoItem{
+                    .contactMe-infoItem {
                         flex: 0 0 25%;
                         max-width: 25%;
                         text-align: center;
                         margin-bottom: 60px;
-                        .icon{
+                        @media screen and (max-width: 991px) {
+                            flex: 0 0 50%;
+                            max-width: 50%;
+                        }
+                        .icon {
                             display: inline-block;
-                            .fa-solid{
+                            .fa-solid {
                                 font-size: 25px;
                                 color: $color1;
                             }
-                            h4{
+                            h4 {
                                 font-size: 18px;
                                 font-weight: 800;
                                 color: $bodytextcolor;
                                 text-transform: capitalize;
                                 margin: 15px 0 5px;
                             }
-                            p{
+                            p {
                                 font-size: 16px;
                                 font-weight: 400;
                                 line-height: 25px;
                                 color: $textcolor;
+                            }
+                        }
+                    }
+                    .contact-form {
+                        flex: 0 0 100%;
+                        max-width: 100%;
+                        .column-6 {
+                            flex: 0 0 50%;
+                            max-width: 50%;
+                        }
+                        .column-12 {
+                            flex: 0 0 100%;
+                            max-width: 100%;
+                        }
+                        textarea {
+                            height: 140px !important;
+                        }
+                        .form-item {
+                            margin-bottom: 30px;
+                            .form-group {
+                                .form-control {
+                                    width: 100%;
+                                    height: 50px;
+                                    border: 1px solid $bg;
+                                    border-radius: 25px;
+                                    background-color: $asidebg;
+                                    padding: 10px 25px;
+                                    font-size: 16px;
+                                    color: $textcolor;
+                                    transition: all 300ms ease;
+                                    &:focus {
+                                        box-shadow: $shadow;
+                                    }
+                                }
+                            }
+                            .btn {
+                                height: 50px;
+                                padding: 0 50px;
                             }
                         }
                     }
@@ -491,11 +571,11 @@
                     font-weight: 600;
                     color: $color1;
                 }
-                .contactMe-subTitle{
+                .contactMe-subTitle {
                     text-align: center;
                     font-size: 15px;
-                    color: $bodytextcolor; 
-                    margin-bottom: 60px; 
+                    color: $bodytextcolor;
+                    margin-bottom: 60px;
                 }
             }
         }
