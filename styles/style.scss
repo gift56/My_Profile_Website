@@ -348,6 +348,47 @@
                                 &:last-child {
                                     padding-bottom: 0;
                                 }
+                                &::before{
+                                    content: " ";
+                                    width: 1px;
+                                    height: 100%;
+                                    position: absolute;
+                                    top: 0;
+                                    background-color: $color1;
+                                    left: 7px;
+
+                                }
+                                .circleDot{
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                    width: 15px;
+                                    height: 15px;
+                                    border-radius: 100%;
+                                    background-color: $color1;
+                                }
+                                .timeline-date{
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    margin-bottom: 12px;
+                                    color: $textcolor;
+                                    display: flex;
+                                    align-items: center;
+                                    gap: 8px;
+                                }
+                                .timeline-title{
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    text-transform: capitalize;
+                                    color: $bodytextcolor;
+                                    margin-bottom: 15px;
+                                }
+                                .timeline-text{
+                                    text-align: justify;
+                                    font-size: 16px;
+                                    color: $textcolor;
+                                    line-height: 25px;
+                                }
                             }
                         }
                     }

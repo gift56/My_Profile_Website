@@ -504,4 +504,53 @@ body {
 .main-container .main .About .container .about-content .timeline-box .timeline .timeline-item:last-child {
   padding-bottom: 0;
 }
+
+.main-container .main .About .container .about-content .timeline-box .timeline .timeline-item::before {
+  content: " ";
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: #ec1839;
+  left: 7px;
+}
+
+.main-container .main .About .container .about-content .timeline-box .timeline .timeline-item .circleDot {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: #ec1839;
+}
+
+.main-container .main .About .container .about-content .timeline-box .timeline .timeline-item .timeline-date {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 12px;
+  color: #504e70;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+
+.main-container .main .About .container .about-content .timeline-box .timeline .timeline-item .timeline-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #302e4d;
+  margin-bottom: 15px;
+}
+
+.main-container .main .About .container .about-content .timeline-box .timeline .timeline-item .timeline-text {
+  text-align: justify;
+  font-size: 16px;
+  color: #504e70;
+  line-height: 25px;
+}
 /*# sourceMappingURL=style.css.map */
