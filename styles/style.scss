@@ -331,6 +331,18 @@
                         margin-bottom: 30px;
                         color: $bodytextcolor;
                     }
+                    .timeline-box {
+                        flex: 0 0 100%;
+                        max-width: 100%;
+                        .timeline{
+                            position: relative;
+                            background-color: $asidebg;
+                            width: 100%;
+                            padding: 30px 15px;
+                            border: 1px solid $bg;
+                            border-radius: 10px;
+                        }
+                    }
                 }
             }
         }

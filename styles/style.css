@@ -11,6 +11,11 @@
   display: none !important;
 }
 
+.shadowBox {
+  -webkit-box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+          box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+
 .container {
   max-width: 1300px;
   width: 100%;
@@ -472,5 +477,21 @@ body {
   font-weight: 700;
   margin-bottom: 30px;
   color: #302e4d;
+}
+
+.main-container .main .About .container .about-content .timeline-box {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.main-container .main .About .container .about-content .timeline-box .timeline {
+  position: relative;
+  background-color: #fdf7ff;
+  width: 100%;
+  padding: 30px 15px;
+  border: 1px solid #e8dfec;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=style.css.map */

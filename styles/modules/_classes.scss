@@ -5,8 +5,11 @@
     padding: 0 30px;
     opacity: 1;
 }
-.hidden{
+.hidden {
     display: none !important;
+}
+.shadowBox {
+    box-shadow: $shadow;
 }
 .container {
     max-width: 1300px;
