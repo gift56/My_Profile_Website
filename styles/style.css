@@ -463,5 +463,14 @@ body {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 50%;
           flex: 0 0 50%;
+  max-width: 50%;
+  margin-top: 30px;
+}
+
+.main-container .main .About .container .about-content .title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #302e4d;
 }
 /*# sourceMappingURL=style.css.map */
