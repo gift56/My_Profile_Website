@@ -554,7 +554,12 @@ body {
   line-height: 25px;
 }
 
-.main-container .main .service .row .sevice-item {
+.main-container .main .service .container {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.main-container .main .service .container .row .sevice-item {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 33.33%;
           flex: 0 0 33.33%;
@@ -562,7 +567,7 @@ body {
   margin-bottom: 30px;
 }
 
-.main-container .main .service .row .sevice-item .inner {
+.main-container .main .service .container .row .sevice-item .inner {
   background-color: #fdf7ff;
   border: 1px solid #e8dfec;
   padding: 30px 10px;
@@ -572,23 +577,50 @@ body {
   transition: all 300ms ease;
 }
 
-.main-container .main .service .row .sevice-item .inner:hover {
+.main-container .main .service .container .row .sevice-item .inner:hover {
   cursor: pointer;
   -webkit-box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
           box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
 
-.main-container .main .service .row .sevice-item .inner .icon {
+.main-container .main .service .container .row .sevice-item .inner .icon {
   display: block;
   margin: 0 auto 30px;
   width: 60px;
   height: 60px;
   border-radius: 100%;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
 }
 
-.main-container .main .service .row .sevice-item .inner .icon .fas {
+.main-container .main .service .container .row .sevice-item .inner .icon .fas {
   font-size: 40px;
   line-height: 60px;
   color: #ec1839;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.main-container .main .service .container .row .sevice-item .inner .icon .fas:hover {
+  font-size: 25px;
+  color: #ffffffff;
+}
+
+.main-container .main .service .container .row .sevice-item .inner .icon:hover {
+  background-color: #ec1839;
+}
+
+.main-container .main .service .container .row .sevice-item .inner h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #302e4d;
+  text-transform: capitalize;
+}
+
+.main-container .main .service .container .row .sevice-item .inner p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #504e70;
 }
 /*# sourceMappingURL=style.css.map */
