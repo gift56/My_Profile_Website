@@ -35,6 +35,9 @@
   .section.open {
     left: 270px;
   }
+  .section .container {
+    padding-top: 90px !important;
+  }
 }
 
 @-webkit-keyframes slides {

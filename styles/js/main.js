@@ -87,14 +87,3 @@ nav.forEach(list => {
         // addBack();
     });
 });
-
-const updateNav = (element) => {
-    console.log("Hire me");
-}
-
-const myLocate = () => {
-    showSection(this);
-    updateNav(this);
-}
-
-document.querySelector(".Hire-me").addEventListener("click", myLocate);

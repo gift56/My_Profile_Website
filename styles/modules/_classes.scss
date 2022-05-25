@@ -26,6 +26,9 @@
         &.open {
             left: 270px;
         }
+        .container {
+            padding-top: 90px !important;
+        }
     }
 }
 @keyframes slides {
