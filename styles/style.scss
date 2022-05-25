@@ -185,7 +185,33 @@
                     padding: 5px 15px;
 
                     &.active {
-                        color: $color2 !important;
+                        color: $color1 !important;
+                    }
+
+                    &.mainA1 {
+                        &:active {
+                            color: $color1 !important;
+                        }
+                    }
+                    &.mainA2 {
+                        &:active {
+                            color: $color2 !important;
+                        }
+                    }
+                    &.mainA3 {
+                        &:active {
+                            color: $color3 !important;
+                        }
+                    }
+                    &.mainA4 {
+                        &:active {
+                            color: $color4 !important;
+                        }
+                    }
+                    &.mainA5 {
+                        &:active {
+                            color: $color5 !important;
+                        }
                     }
                 }
             }
@@ -468,8 +494,8 @@
                                     height: 100%;
                                     position: absolute;
                                     top: 0;
-                                    background-color: $color1;
                                     left: 7px;
+                                    background-color: $color1;
                                 }
                                 .circleDot {
                                     position: absolute;
@@ -557,29 +583,29 @@
                                     background-color: $color1;
                                 }
                                 &.mainH1 {
-                                    &:hover{
+                                    &:hover {
                                         background: $color1 !important;
                                     }
                                 }
                                 &.mainH2 {
-                                    &:hover{
+                                    &:hover {
                                         background: $color2 !important;
                                     }
                                 }
                                 &.mainH3 {
-                                    &:hover{
+                                    &:hover {
                                         background: $color3 !important;
                                     }
                                 }
                                 &.mainH4 {
-                                    &:hover{
+                                    &:hover {
                                         background: $color4 !important;
                                     }
                                 }
                                 &.mainH5 {
-                                   &:hover{
-                                       background: $color5 !important;
-                                   }
+                                    &:hover {
+                                        background: $color5 !important;
+                                    }
                                 }
                             }
                             h4 {

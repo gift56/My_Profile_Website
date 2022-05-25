@@ -204,7 +204,7 @@ const fifthColors = () => {
         bord.classList.add("mainFifth");
     })
 
-    const btn = document.querySelectorAll(".btn");
+    const btn = document.querySelectorAll(".backgroundChange");
     btn.forEach(but => {
         but.classList.remove("mainbg");
         but.classList.remove("mainbg2");
