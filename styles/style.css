@@ -320,6 +320,26 @@
   background: #f021b2 !important;
 }
 
+.mainColor {
+  color: #ec1839 !important;
+}
+
+.mainColor2 {
+  color: #fa5b0f !important;
+}
+
+.mainColor3 {
+  color: #37b182 !important;
+}
+
+.mainColor4 {
+  color: #1854b4 !important;
+}
+
+.mainColor5 {
+  color: #f021b2 !important;
+}
+
 * {
   margin: 0;
   padding: 0;

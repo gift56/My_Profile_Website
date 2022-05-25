@@ -17,6 +17,21 @@ const mainColors = () => {
         bord.classList.remove("mainFifth");
     })
 
+    const proggresIn = document.querySelectorAll(".progress-in");
+
+    proggresIn.forEach(but => {
+        but.classList.add("mainbg");
+        but.classList.remove("mainbg2");
+        but.classList.remove("mainbg3");
+        but.classList.remove("mainbg4");
+        but.classList.remove("mainbg5");
+    })
+
+    const colorMain = document.querySelectorAll(".name");
+
+    colorMain.forEach(name => {
+
+    })
 }
 const secondColors = () => {
     const bords = document.querySelectorAll("#bord");
@@ -36,6 +51,17 @@ const secondColors = () => {
         but.classList.remove("mainbg4");
         but.classList.remove("mainbg5");
     })
+
+    const proggresIn = document.querySelectorAll(".progress-in");
+
+    proggresIn.forEach(but => {
+        but.classList.remove("mainbg");
+        but.classList.add("mainbg2");
+        but.classList.remove("mainbg3");
+        but.classList.remove("mainbg4");
+        but.classList.remove("mainbg5");
+    })
+
 }
 const thirdColors = () => {
     const bords = document.querySelectorAll("#bord");
@@ -49,6 +75,16 @@ const thirdColors = () => {
 
     const btn = document.querySelectorAll(".btn");
     btn.forEach(but => {
+        but.classList.remove("mainbg");
+        but.classList.remove("mainbg2");
+        but.classList.add("mainbg3");
+        but.classList.remove("mainbg4");
+        but.classList.remove("mainbg5");
+    })
+
+    const proggresIn = document.querySelectorAll(".progress-in");
+
+    proggresIn.forEach(but => {
         but.classList.remove("mainbg");
         but.classList.remove("mainbg2");
         but.classList.add("mainbg3");
@@ -74,6 +110,16 @@ const forthColors = () => {
         but.classList.add("mainbg4");
         but.classList.remove("mainbg5");
     })
+
+    const proggresIn = document.querySelectorAll(".progress-in");
+
+    proggresIn.forEach(but => {
+        but.classList.remove("mainbg");
+        but.classList.remove("mainbg2");
+        but.classList.remove("mainbg3");
+        but.classList.add("mainbg4");
+        but.classList.remove("mainbg5");
+    })
 }
 const fifthColors = () => {
     const bords = document.querySelectorAll("#bord");
@@ -87,6 +133,16 @@ const fifthColors = () => {
 
     const btn = document.querySelectorAll(".btn");
     btn.forEach(but => {
+        but.classList.remove("mainbg");
+        but.classList.remove("mainbg2");
+        but.classList.remove("mainbg3");
+        but.classList.remove("mainbg4");
+        but.classList.add("mainbg5");
+    })
+
+    const proggresIn = document.querySelectorAll(".progress-in");
+
+    proggresIn.forEach(but => {
         but.classList.remove("mainbg");
         but.classList.remove("mainbg2");
         but.classList.remove("mainbg3");
