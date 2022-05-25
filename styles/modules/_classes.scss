@@ -99,6 +99,9 @@
     }
     .section {
         background-color: $maindark !important;
+        h2{
+            color: $white !important;
+        }
     }
     .main {
         color: $textwhite !important;
