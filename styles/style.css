@@ -5,6 +5,19 @@
   display: block;
   padding: 0 30px;
   opacity: 1;
+  position: fixed;
+  left: 270px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.section.active {
+  z-index: 2;
+  opacity: 1;
 }
 
 .hidden {
@@ -500,10 +513,6 @@ body {
 
 .main-container .leftSide .nav li a.active {
   color: #ec1839;
-}
-
-.main-container .main {
-  padding-left: 270px;
 }
 
 @media screen and (max-width: 1199px) {

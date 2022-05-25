@@ -1,5 +1,6 @@
 const switcherToggler = document.querySelector(".style-toggle");
 const dayNight = document.querySelector(".day-night");
+const nav = document.querySelectorAll(".nav li a");
 
 icons.addEventListener("click", () => {
     document.body.classList.toggle("dark")
@@ -28,7 +29,6 @@ const closeSwitch = () => {
 }
 window.addEventListener("scroll", closeSwitch);
 
-
 const darkMood = () => {
     if (document.body.classList.contains("dark")) {
         dayNight.querySelector("i").classList.add("fa-sun");
@@ -37,5 +37,22 @@ const darkMood = () => {
         dayNight.querySelector("i").classList.add("fa-moon");
     }
 }
-
 window.addEventListener("load", darkMood);
+
+const RemoveNav = () => {
+    nav.forEach(list => {
+        list.classList.remove('active');
+    });
+}
+const showSection = (element) => {
+    const target = element.getAttribute("href").split("#")[1];
+    document.querySelector("#" + target).classList.add("active");
+}
+
+nav.forEach(list => {
+    list.addEventListener("click", () => {
+        RemoveNav();
+        showSection(list);
+        list.classList.add("active");
+    });
+})
