@@ -17,6 +17,9 @@
         top: 0;
         height: 100%;
         z-index: 10;
+        &.open {
+            left: 0;
+        }
         @media screen and (max-width: 1199px) {
             left: -270px;
         }
@@ -75,6 +78,9 @@
             @media screen and (max-width: 1199px) {
                 display: flex;
                 left: 30px;
+                &.open {
+                    left: 300px;
+                }
             }
             span {
                 width: 18px;

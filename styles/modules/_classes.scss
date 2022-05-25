@@ -22,6 +22,9 @@
     }
     @media screen and(max-width:1199px) {
         left: 0;
+        &.open {
+            left: 270px;
+        }
     }
 }
 @keyframes slides {

@@ -3,6 +3,17 @@ const dayNight = document.querySelector(".day-night");
 const nav = document.querySelectorAll(".nav li a");
 const section = document.querySelectorAll(".section");
 
+const asideBtn = () => {
+    left.classList.toggle("open");
+    navBarIcon.classList.toggle("open");
+    navBarIcon.classList.toggle("open");
+    section.forEach(set => {
+        set.classList.toggle("open");
+    });
+}
+
+navBarIcon.addEventListener("click", asideBtn);
+
 icons.addEventListener("click", () => {
     document.body.classList.toggle("dark")
     if (document.body.classList.contains("dark")) {

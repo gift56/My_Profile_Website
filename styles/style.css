@@ -30,6 +30,9 @@
   .section {
     left: 0;
   }
+  .section.open {
+    left: 270px;
+  }
 }
 
 @-webkit-keyframes slides {
@@ -428,6 +431,10 @@ body {
   z-index: 10;
 }
 
+.main-container .leftSide.open {
+  left: 0;
+}
+
 @media screen and (max-width: 1199px) {
   .main-container .leftSide {
     left: -270px;
@@ -502,6 +509,9 @@ body {
     display: -ms-flexbox;
     display: flex;
     left: 30px;
+  }
+  .main-container .leftSide .navbar.open {
+    left: 300px;
   }
 }
 
