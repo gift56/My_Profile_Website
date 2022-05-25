@@ -30,7 +30,11 @@ const mainColors = () => {
     const colorMain = document.querySelectorAll(".name");
 
     colorMain.forEach(name => {
-
+        name.classList.add("mainColor");
+        name.classList.remove("mainColor2");
+        name.classList.remove("mainColor3");
+        name.classList.remove("mainColor4");
+        name.classList.remove("mainColor5");
     })
 }
 const secondColors = () => {
@@ -62,6 +66,15 @@ const secondColors = () => {
         but.classList.remove("mainbg5");
     })
 
+    const colorMain = document.querySelectorAll(".name");
+
+    colorMain.forEach(name => {
+        name.classList.remove("mainColor");
+        name.classList.add("mainColor2");
+        name.classList.remove("mainColor3");
+        name.classList.remove("mainColor4");
+        name.classList.remove("mainColor5");
+    })
 }
 const thirdColors = () => {
     const bords = document.querySelectorAll("#bord");
@@ -90,6 +103,16 @@ const thirdColors = () => {
         but.classList.add("mainbg3");
         but.classList.remove("mainbg4");
         but.classList.remove("mainbg5");
+    })
+
+    const colorMain = document.querySelectorAll(".name");
+
+    colorMain.forEach(name => {
+        name.classList.remove("mainColor");
+        name.classList.remove("mainColor2");
+        name.classList.add("mainColor3");
+        name.classList.remove("mainColor4");
+        name.classList.remove("mainColor5");
     })
 }
 const forthColors = () => {
@@ -120,6 +143,16 @@ const forthColors = () => {
         but.classList.add("mainbg4");
         but.classList.remove("mainbg5");
     })
+
+    const colorMain = document.querySelectorAll(".name");
+
+    colorMain.forEach(name => {
+        name.classList.remove("mainColor");
+        name.classList.remove("mainColor2");
+        name.classList.remove("mainColor3");
+        name.classList.add("mainColor4");
+        name.classList.remove("mainColor5");
+    })
 }
 const fifthColors = () => {
     const bords = document.querySelectorAll("#bord");
@@ -148,6 +181,16 @@ const fifthColors = () => {
         but.classList.remove("mainbg3");
         but.classList.remove("mainbg4");
         but.classList.add("mainbg5");
+    })
+
+    const colorMain = document.querySelectorAll(".name");
+
+    colorMain.forEach(name => {
+        name.classList.remove("mainColor");
+        name.classList.remove("mainColor2");
+        name.classList.remove("mainColor3");
+        name.classList.remove("mainColor4");
+        name.classList.add("mainColor5");
     })
 }
 
