@@ -1,6 +1,7 @@
 const switcherToggler = document.querySelector(".style-toggle");
 const dayNight = document.querySelector(".day-night");
 const nav = document.querySelectorAll(".nav li a");
+const section = document.querySelectorAll(".section");
 
 icons.addEventListener("click", () => {
     document.body.classList.toggle("dark")
@@ -45,6 +46,9 @@ const RemoveNav = () => {
     });
 }
 const showSection = (element) => {
+    section.forEach(set => {
+        set.classList.remove("active");
+    });
     const target = element.getAttribute("href").split("#")[1];
     document.querySelector("#" + target).classList.add("active");
 }
