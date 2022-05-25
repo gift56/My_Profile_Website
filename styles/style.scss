@@ -91,6 +91,26 @@
                         border-right-color: $color3 !important;
                     }
                 }
+                &.mainFourth {
+                    &::before {
+                        border-bottom-color: $color4 !important;
+                        border-left-color: $color4 !important;
+                    }
+                    &::after {
+                        border-top-color: $color4 !important;
+                        border-right-color: $color4 !important;
+                    }
+                }
+                &.mainFifth {
+                    &::before {
+                        border-bottom-color: $color5 !important;
+                        border-left-color: $color5 !important;
+                    }
+                    &::after {
+                        border-top-color: $color5 !important;
+                        border-right-color: $color5 !important;
+                    }
+                }
             }
         }
         .navbar {

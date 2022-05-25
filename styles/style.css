@@ -533,6 +533,26 @@ body {
   border-right-color: #37b182 !important;
 }
 
+.main-container .leftSide .logo a.mainFourth::before {
+  border-bottom-color: #1854b4 !important;
+  border-left-color: #1854b4 !important;
+}
+
+.main-container .leftSide .logo a.mainFourth::after {
+  border-top-color: #1854b4 !important;
+  border-right-color: #1854b4 !important;
+}
+
+.main-container .leftSide .logo a.mainFifth::before {
+  border-bottom-color: #f021b2 !important;
+  border-left-color: #f021b2 !important;
+}
+
+.main-container .leftSide .logo a.mainFifth::after {
+  border-top-color: #f021b2 !important;
+  border-right-color: #f021b2 !important;
+}
+
 .main-container .leftSide .navbar {
   background-color: #fdf7ff;
   display: none;
