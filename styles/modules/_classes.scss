@@ -134,6 +134,22 @@
         }
         .service {
             color: $white !important;
+            .inner {
+                background: $darkbg !important;
+            }
+            h4 {
+                color: $white !important;
+            }
+            p {
+                color: $textwhite !important;
+            }
         }
+        .portifolio {
+            color: $white !important;
+            h2 {
+                color: $white !important;
+            }
+        }
+        
     }
 }
