@@ -1,5 +1,5 @@
 const mainColors = () => {
-    const btn = document.querySelectorAll(".btn");
+    const btn = document.querySelectorAll(".backgroundChange");
     btn.forEach(but => {
         but.classList.add("mainbg");
         but.classList.remove("mainbg2");
@@ -35,6 +35,16 @@ const mainColors = () => {
         name.classList.remove("mainColor3");
         name.classList.remove("mainColor4");
         name.classList.remove("mainColor5");
+    })
+
+    const hoverIcon = document.querySelectorAll(".hover");
+
+    hoverIcon.forEach(iconH => {
+        iconH.classList.add("mainH1");
+        iconH.classList.remove("mainH2");
+        iconH.classList.remove("mainH3");
+        iconH.classList.remove("mainH4");
+        iconH.classList.remove("mainH5");
     })
 }
 const secondColors = () => {
@@ -75,6 +85,16 @@ const secondColors = () => {
         name.classList.remove("mainColor4");
         name.classList.remove("mainColor5");
     })
+
+    const hoverIcon = document.querySelectorAll(".hover");
+
+    hoverIcon.forEach(iconH => {
+        iconH.classList.remove("mainH1");
+        iconH.classList.add("mainH2");
+        iconH.classList.remove("mainH3");
+        iconH.classList.remove("mainH4");
+        iconH.classList.remove("mainH5");
+    })
 }
 const thirdColors = () => {
     const bords = document.querySelectorAll("#bord");
@@ -113,6 +133,16 @@ const thirdColors = () => {
         name.classList.add("mainColor3");
         name.classList.remove("mainColor4");
         name.classList.remove("mainColor5");
+    })
+
+    const hoverIcon = document.querySelectorAll(".hover");
+
+    hoverIcon.forEach(iconH => {
+        iconH.classList.remove("mainH1");
+        iconH.classList.remove("mainH2");
+        iconH.classList.add("mainH3");
+        iconH.classList.remove("mainH4");
+        iconH.classList.remove("mainH5");
     })
 }
 const forthColors = () => {
@@ -153,6 +183,16 @@ const forthColors = () => {
         name.classList.add("mainColor4");
         name.classList.remove("mainColor5");
     })
+
+    const hoverIcon = document.querySelectorAll(".hover");
+
+    hoverIcon.forEach(iconH => {
+        iconH.classList.remove("mainH1");
+        iconH.classList.remove("mainH2");
+        iconH.classList.remove("mainH3");
+        iconH.classList.add("mainH4");
+        iconH.classList.remove("mainH5");
+    })
 }
 const fifthColors = () => {
     const bords = document.querySelectorAll("#bord");
@@ -191,6 +231,16 @@ const fifthColors = () => {
         name.classList.remove("mainColor3");
         name.classList.remove("mainColor4");
         name.classList.add("mainColor5");
+    })
+
+    const hoverIcon = document.querySelectorAll(".hover");
+
+    hoverIcon.forEach(iconH => {
+        iconH.classList.remove("mainH1");
+        iconH.classList.remove("mainH2");
+        iconH.classList.remove("mainH3");
+        iconH.classList.remove("mainH4");
+        iconH.classList.add("mainH5");
     })
 }
 

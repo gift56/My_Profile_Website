@@ -550,11 +550,36 @@
                                     transition: all 300ms ease;
                                     &:hover {
                                         font-size: 25px;
-                                        color: $white;
+                                        color: $white !important;
                                     }
                                 }
                                 &:hover {
                                     background-color: $color1;
+                                }
+                                &.mainH1 {
+                                    &:hover{
+                                        background: $color1 !important;
+                                    }
+                                }
+                                &.mainH2 {
+                                    &:hover{
+                                        background: $color2 !important;
+                                    }
+                                }
+                                &.mainH3 {
+                                    &:hover{
+                                        background: $color3 !important;
+                                    }
+                                }
+                                &.mainH4 {
+                                    &:hover{
+                                        background: $color4 !important;
+                                    }
+                                }
+                                &.mainH5 {
+                                   &:hover{
+                                       background: $color5 !important;
+                                   }
                                 }
                             }
                             h4 {

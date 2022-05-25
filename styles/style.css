@@ -1159,11 +1159,31 @@ body {
 
 .main-container .main .service .container .row .service-item .inner .icon .fas:hover {
   font-size: 25px;
-  color: #ffffffff;
+  color: #ffffffff !important;
 }
 
 .main-container .main .service .container .row .service-item .inner .icon:hover {
   background-color: #ec1839;
+}
+
+.main-container .main .service .container .row .service-item .inner .icon.mainH1:hover {
+  background: #ec1839 !important;
+}
+
+.main-container .main .service .container .row .service-item .inner .icon.mainH2:hover {
+  background: #fa5b0f !important;
+}
+
+.main-container .main .service .container .row .service-item .inner .icon.mainH3:hover {
+  background: #37b182 !important;
+}
+
+.main-container .main .service .container .row .service-item .inner .icon.mainH4:hover {
+  background: #1854b4 !important;
+}
+
+.main-container .main .service .container .row .service-item .inner .icon.mainH5:hover {
+  background: #f021b2 !important;
 }
 
 .main-container .main .service .container .row .service-item .inner h4 {
