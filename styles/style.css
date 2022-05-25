@@ -486,8 +486,8 @@ body {
   position: absolute;
   width: 20px;
   height: 20px;
-  border-bottom: 5px solid #ec1839;
-  border-left: 5px solid #ec1839;
+  border-bottom: 5px solid;
+  border-left: 5px solid;
   bottom: 0;
   left: 0;
 }
@@ -497,10 +497,40 @@ body {
   position: absolute;
   width: 20px;
   height: 20px;
-  border-top: 5px solid #ec1839;
-  border-right: 5px solid #ec1839;
+  border-top: 5px solid;
+  border-right: 5px solid;
   top: 0;
   right: 0;
+}
+
+.main-container .leftSide .logo a.main::before {
+  border-bottom-color: #ec1839 !important;
+  border-left-color: #ec1839 !important;
+}
+
+.main-container .leftSide .logo a.main::after {
+  border-top-color: #ec1839 !important;
+  border-right-color: #ec1839 !important;
+}
+
+.main-container .leftSide .logo a.mainSec::before {
+  border-bottom-color: #fa5b0f !important;
+  border-left-color: #fa5b0f !important;
+}
+
+.main-container .leftSide .logo a.mainSec::after {
+  border-top-color: #fa5b0f !important;
+  border-right-color: #fa5b0f !important;
+}
+
+.main-container .leftSide .logo a.mainThird::before {
+  border-bottom-color: #37b182 !important;
+  border-left-color: #37b182 !important;
+}
+
+.main-container .leftSide .logo a.mainThird::after {
+  border-top-color: #37b182 !important;
+  border-right-color: #37b182 !important;
 }
 
 .main-container .leftSide .navbar {
