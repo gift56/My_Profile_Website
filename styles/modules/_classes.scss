@@ -20,6 +20,9 @@
     &.backSect {
         z-index: 1;
     }
+    @media screen and(max-width:1199px) {
+        left: 0;
+    }
 }
 @keyframes slides {
     0% {

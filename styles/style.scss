@@ -72,6 +72,10 @@
             left: 300px;
             top: 20px;
             border-radius: 5px;
+            @media screen and (max-width: 1199px) {
+                display: flex;
+                left: 30px;
+            }
             span {
                 width: 18px;
                 height: 2px;
@@ -120,9 +124,6 @@
         }
     }
     .main {
-        @media screen and (max-width: 1199px) {
-            padding-left: 0;
-        }
         .Homepage {
             color: $bodytextcolor;
             display: flex;
