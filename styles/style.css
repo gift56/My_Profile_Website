@@ -99,6 +99,19 @@
   color: #ffffffff !important;
 }
 
+.dark .s-icon {
+  background: #222222 !important;
+  color: #ffffffff !important;
+}
+
+.dark .style-switcher {
+  background: #222222 !important;
+}
+
+.dark .style-switcher h4 {
+  color: #e9e9e9e9 !important;
+}
+
 .dark .leftSide {
   background-color: #222222 !important;
 }
@@ -192,6 +205,31 @@
 }
 
 .dark .main .portifolio h2 {
+  color: #ffffffff !important;
+}
+
+.dark .main .contact {
+  color: #ffffffff !important;
+}
+
+.dark .main .contact h2 {
+  color: #ffffffff !important;
+}
+
+.dark .main .contact h4 {
+  color: #ffffffff !important;
+}
+
+.dark .main .contact p {
+  color: #e9e9e9e9 !important;
+}
+
+.dark .main .contact .contact-form .form-control {
+  background: #222222 !important;
+  color: #e9e9e9e9 !important;
+}
+
+.dark .main .contact .contact-form .contactMe-subTitle {
   color: #ffffffff !important;
 }
 

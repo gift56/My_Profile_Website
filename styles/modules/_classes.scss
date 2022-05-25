@@ -75,6 +75,17 @@
 .dark {
     background: $maindark !important;
     color: $white !important;
+    .s-icon {
+        background: $darkbg !important;
+        color: $white !important;
+    }
+
+    .style-switcher {
+        background: $darkbg !important;
+        h4 {
+            color: $textwhite !important;
+        }
+    }
     .leftSide {
         background-color: $darkbg !important;
         a {
@@ -150,6 +161,26 @@
                 color: $white !important;
             }
         }
-        
+        .contact {
+            color: $white !important;
+            h2 {
+                color: $white !important;
+            }
+            h4 {
+                color: $white !important;
+            }
+            p {
+                color: $textwhite !important;
+            }
+            .contact-form {
+                .form-control {
+                    background: $darkbg !important;
+                    color: $textwhite !important;
+                }
+                .contactMe-subTitle {
+                    color: $white !important;
+                }
+            }
+        }
     }
 }
