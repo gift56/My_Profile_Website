@@ -18,6 +18,34 @@
 .section.active {
   z-index: 2;
   opacity: 1;
+  -webkit-animation: slides 1s ease;
+          animation: slides 1s ease;
+}
+
+.section.backSect {
+  z-index: 1;
+}
+
+@-webkit-keyframes slides {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+@keyframes slides {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
 }
 
 .hidden {
