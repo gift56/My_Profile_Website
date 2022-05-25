@@ -69,12 +69,16 @@
         }
     }
 }
-.rounded-circle{
+.rounded-circle {
     border-radius: 100% !important;
 }
 .dark {
     background: $maindark !important;
     color: $white !important;
-    
-
+    .leftSide {
+        background-color: $darkbg !important;
+        a{
+            color: $textwhite !important;
+        }
+    }
 }
