@@ -504,53 +504,53 @@ body {
 }
 
 .main-container .leftSide .logo a.main::before {
-  border-bottom-color: #ec1839 !important;
-  border-left-color: #ec1839 !important;
+  border-bottom-color: #ec1839;
+  border-left-color: #ec1839;
 }
 
 .main-container .leftSide .logo a.main::after {
-  border-top-color: #ec1839 !important;
-  border-right-color: #ec1839 !important;
+  border-top-color: #ec1839;
+  border-right-color: #ec1839;
 }
 
 .main-container .leftSide .logo a.mainSec::before {
-  border-bottom-color: #fa5b0f !important;
-  border-left-color: #fa5b0f !important;
+  border-bottom-color: #fa5b0f;
+  border-left-color: #fa5b0f;
 }
 
 .main-container .leftSide .logo a.mainSec::after {
-  border-top-color: #fa5b0f !important;
-  border-right-color: #fa5b0f !important;
+  border-top-color: #fa5b0f;
+  border-right-color: #fa5b0f;
 }
 
 .main-container .leftSide .logo a.mainThird::before {
-  border-bottom-color: #37b182 !important;
-  border-left-color: #37b182 !important;
+  border-bottom-color: #37b182;
+  border-left-color: #37b182;
 }
 
 .main-container .leftSide .logo a.mainThird::after {
-  border-top-color: #37b182 !important;
-  border-right-color: #37b182 !important;
+  border-top-color: #37b182;
+  border-right-color: #37b182;
 }
 
 .main-container .leftSide .logo a.mainFourth::before {
-  border-bottom-color: #1854b4 !important;
-  border-left-color: #1854b4 !important;
+  border-bottom-color: #1854b4;
+  border-left-color: #1854b4;
 }
 
 .main-container .leftSide .logo a.mainFourth::after {
-  border-top-color: #1854b4 !important;
-  border-right-color: #1854b4 !important;
+  border-top-color: #1854b4;
+  border-right-color: #1854b4;
 }
 
 .main-container .leftSide .logo a.mainFifth::before {
-  border-bottom-color: #f021b2 !important;
-  border-left-color: #f021b2 !important;
+  border-bottom-color: #f021b2;
+  border-left-color: #f021b2;
 }
 
 .main-container .leftSide .logo a.mainFifth::after {
-  border-top-color: #f021b2 !important;
-  border-right-color: #f021b2 !important;
+  border-top-color: #f021b2;
+  border-right-color: #f021b2;
 }
 
 .main-container .leftSide .navbar {
@@ -747,8 +747,8 @@ body {
   position: absolute;
   width: 80px;
   height: 80px;
-  border-bottom: 10px solid #ec1839;
-  border-right: 10px solid #ec1839;
+  border-bottom: 10px solid;
+  border-right: 10px solid;
   right: 20px;
   bottom: -40px;
 }
@@ -758,10 +758,60 @@ body {
   position: absolute;
   width: 80px;
   height: 80px;
-  border-top: 10px solid #ec1839;
-  border-left: 10px solid #ec1839;
+  border-top: 10px solid;
+  border-left: 10px solid;
   left: 20px;
   top: -40px;
+}
+
+.main-container .main .Homepage .container .row .home-img.main::before {
+  border-top-color: #ec1839;
+  border-left-color: #ec1839;
+}
+
+.main-container .main .Homepage .container .row .home-img.main::after {
+  border-bottom-color: #ec1839;
+  border-right-color: #ec1839;
+}
+
+.main-container .main .Homepage .container .row .home-img.mainSec::before {
+  border-top-color: #fa5b0f;
+  border-left-color: #fa5b0f;
+}
+
+.main-container .main .Homepage .container .row .home-img.mainSec::after {
+  border-bottom-color: #fa5b0f;
+  border-right-color: #fa5b0f;
+}
+
+.main-container .main .Homepage .container .row .home-img.mainThird::before {
+  border-top-color: #37b182;
+  border-left-color: #37b182;
+}
+
+.main-container .main .Homepage .container .row .home-img.mainThird::after {
+  border-bottom-color: #37b182;
+  border-right-color: #37b182;
+}
+
+.main-container .main .Homepage .container .row .home-img.mainFourth::before {
+  border-top-color: #1854b4;
+  border-left-color: #1854b4;
+}
+
+.main-container .main .Homepage .container .row .home-img.mainFourth::after {
+  border-bottom-color: #1854b4;
+  border-right-color: #1854b4;
+}
+
+.main-container .main .Homepage .container .row .home-img.mainFifth::before {
+  border-top-color: #f021b2;
+  border-left-color: #f021b2;
+}
+
+.main-container .main .Homepage .container .row .home-img.mainFifth::after {
+  border-bottom-color: #f021b2;
+  border-right-color: #f021b2;
 }
 
 .main-container .main .About .container {
