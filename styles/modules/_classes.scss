@@ -77,8 +77,63 @@
     color: $white !important;
     .leftSide {
         background-color: $darkbg !important;
-        a{
+        a {
             color: $textwhite !important;
+        }
+        li {
+            a {
+                color: $textwhite !important;
+            }
+        }
+    }
+    .section {
+        background-color: $maindark !important;
+    }
+    .main {
+        color: $textwhite !important;
+        .Homepage {
+            color: $white !important;
+            p {
+                color: $textwhite !important;
+            }
+        }
+        .About {
+            color: $white !important;
+            h3 {
+                color: $white !important;
+            }
+            p {
+                color: $textwhite !important;
+            }
+            .info-item {
+                p {
+                    color: $white !important;
+                }
+                span {
+                    color: $textwhite !important;
+                }
+                .skill-percent {
+                    color: $white !important;
+                }
+            }
+            .title {
+                color: $white !important;
+            }
+            .timeline {
+                background: $darkbg !important;
+                .timeline-date {
+                    color: $textwhite !important;
+                }
+                .timeline-title {
+                    color: $white !important;
+                }
+                .timeline-text {
+                    color: $textwhite !important;
+                }
+            }
+        }
+        .service {
+            color: $white !important;
         }
     }
 }
