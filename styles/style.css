@@ -90,8 +90,13 @@
   margin-top: 8px;
 }
 
+.rounded-circle {
+  border-radius: 100% !important;
+}
+
 .dark {
   background: #151515 !important;
+  color: #ffffffff !important;
 }
 
 * {

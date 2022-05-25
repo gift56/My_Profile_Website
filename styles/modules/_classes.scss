@@ -69,6 +69,11 @@
         }
     }
 }
+.rounded-circle{
+    border-radius: 100% !important;
+}
 .dark {
     background: $maindark !important;
+    color: $white !important;
+
 }
