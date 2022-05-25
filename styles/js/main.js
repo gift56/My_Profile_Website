@@ -6,7 +6,6 @@ const section = document.querySelectorAll(".section");
 const asideBtn = () => {
     left.classList.toggle("open");
     navBarIcon.classList.toggle("open");
-    navBarIcon.classList.toggle("open");
     section.forEach(set => {
         set.classList.toggle("open");
     });
@@ -30,7 +29,7 @@ let typed = new Typed(".typing", {
     typeSpeed: 100,
     BackSpeed: 60,
     loop: true
-})
+});
 
 switcherToggler.addEventListener("click", () => switchContent.classList.toggle("open"));
 
@@ -51,6 +50,18 @@ const darkMood = () => {
 }
 window.addEventListener("load", darkMood);
 
+// const removeBack = () => {
+//     section.forEach(set => {
+//         list.classList.remove('backSect');
+//     });
+// }
+
+// const addBack = () => {
+//     section.forEach(set => {
+//         list.classList.add('backSect');
+//     });
+// }
+
 const RemoveNav = () => {
     nav.forEach(list => {
         list.classList.remove('active');
@@ -62,13 +73,28 @@ const showSection = (element) => {
     });
     const target = element.getAttribute("href").split("#")[1];
     document.querySelector("#" + target).classList.add("active");
-    // document.querySelector("#" + target).classList.add("backSect");
 }
 
 nav.forEach(list => {
     list.addEventListener("click", () => {
         RemoveNav();
         showSection(list);
+        if (window.innerWidth < 1200) {
+            asideBtn();
+        }
         list.classList.add("active");
+        // removeBack();
+        // addBack();
     });
-})
+});
+
+const updateNav = (element) => {
+    console.log("Hire me");
+}
+
+const myLocate = () => {
+    showSection(this);
+    updateNav(this);
+}
+
+document.querySelector(".Hire-me").addEventListener("click", myLocate);

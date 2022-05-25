@@ -12,6 +12,7 @@
     z-index: 0;
     overflow-y: auto;
     overflow-x: hidden;
+    transition: all 300ms ease;
     &.active {
         z-index: 2;
         opacity: 1;

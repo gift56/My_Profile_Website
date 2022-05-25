@@ -13,6 +13,8 @@
   z-index: 0;
   overflow-y: auto;
   overflow-x: hidden;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
 }
 
 .section.active {
@@ -429,6 +431,8 @@ body {
   top: 0;
   height: 100%;
   z-index: 10;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
 }
 
 .main-container .leftSide.open {
@@ -501,6 +505,8 @@ body {
   left: 300px;
   top: 20px;
   border-radius: 5px;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
 }
 
 @media screen and (max-width: 1199px) {
@@ -512,6 +518,19 @@ body {
   }
   .main-container .leftSide .navbar.open {
     left: 300px;
+  }
+  .main-container .leftSide .navbar.open span {
+    background-color: transparent;
+  }
+  .main-container .leftSide .navbar.open span::before {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 0;
+  }
+  .main-container .leftSide .navbar.open span::after {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    top: 0;
   }
 }
 
@@ -760,7 +779,6 @@ body {
 }
 
 .main-container .main .About .container .about-content .buttons a {
-  margin-right: 15px;
   margin-top: 10px;
 }
 
