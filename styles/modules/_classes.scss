@@ -124,10 +124,16 @@
         background-color: $darkbg !important;
         a {
             color: $textwhite !important;
+            &:active {
+                color: $color1 !important;
+            }
         }
         li {
             a {
                 color: $textwhite !important;
+                &:active {
+                    color: $color1 !important;
+                }
             }
         }
     }
