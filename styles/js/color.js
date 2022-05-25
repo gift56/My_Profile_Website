@@ -46,6 +46,16 @@ const mainColors = () => {
         iconH.classList.remove("mainH4");
         iconH.classList.remove("mainH5");
     })
+
+    const nav = document.querySelectorAll(".nav li a");
+
+    nav.forEach(list => {
+        list.classList.add("mainA1");
+        list.classList.remove("mainA2");
+        list.classList.remove("mainA3");
+        list.classList.remove("mainA4");
+        list.classList.remove("mainA5");
+    })
 }
 const secondColors = () => {
     const bords = document.querySelectorAll("#bord");
@@ -94,6 +104,16 @@ const secondColors = () => {
         iconH.classList.remove("mainH3");
         iconH.classList.remove("mainH4");
         iconH.classList.remove("mainH5");
+    })
+
+    const nav = document.querySelectorAll(".nav li a");
+
+    nav.forEach(list => {
+        list.classList.remove("mainA1");
+        list.classList.add("mainA2");
+        list.classList.remove("mainA3");
+        list.classList.remove("mainA4");
+        list.classList.remove("mainA5");
     })
 }
 const thirdColors = () => {
@@ -144,6 +164,16 @@ const thirdColors = () => {
         iconH.classList.remove("mainH4");
         iconH.classList.remove("mainH5");
     })
+
+    const nav = document.querySelectorAll(".nav li a");
+
+    nav.forEach(list => {
+        list.classList.remove("mainA1");
+        list.classList.remove("mainA2");
+        list.classList.add("mainA3");
+        list.classList.remove("mainA4");
+        list.classList.remove("mainA5");
+    })
 }
 const forthColors = () => {
     const bords = document.querySelectorAll("#bord");
@@ -193,6 +223,16 @@ const forthColors = () => {
         iconH.classList.add("mainH4");
         iconH.classList.remove("mainH5");
     })
+
+    const nav = document.querySelectorAll(".nav li a");
+
+    nav.forEach(list => {
+        list.classList.remove("mainA1");
+        list.classList.remove("mainA2");
+        list.classList.remove("mainA3");
+        list.classList.add("mainA4");
+        list.classList.remove("mainA5");
+    })
 }
 const fifthColors = () => {
     const bords = document.querySelectorAll("#bord");
@@ -241,6 +281,16 @@ const fifthColors = () => {
         iconH.classList.remove("mainH3");
         iconH.classList.remove("mainH4");
         iconH.classList.add("mainH5");
+    })
+
+    const nav = document.querySelectorAll(".nav li a");
+
+    nav.forEach(list => {
+        list.classList.remove("mainA1");
+        list.classList.remove("mainA2");
+        list.classList.remove("mainA3");
+        list.classList.remove("mainA4");
+        list.classList.add("mainA5");
     })
 }
 

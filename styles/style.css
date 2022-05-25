@@ -683,27 +683,23 @@ body {
   padding: 5px 15px;
 }
 
-.main-container .leftSide .nav li a.active {
+.main-container .leftSide .nav li a.mainA1.active {
   color: #ec1839 !important;
 }
 
-.main-container .leftSide .nav li a.mainA1:active {
-  color: #ec1839 !important;
-}
-
-.main-container .leftSide .nav li a.mainA2:active {
+.main-container .leftSide .nav li a.mainA2.active {
   color: #fa5b0f !important;
 }
 
-.main-container .leftSide .nav li a.mainA3:active {
+.main-container .leftSide .nav li a.mainA3.active {
   color: #37b182 !important;
 }
 
-.main-container .leftSide .nav li a.mainA4:active {
+.main-container .leftSide .nav li a.mainA4.active {
   color: #1854b4 !important;
 }
 
-.main-container .leftSide .nav li a.mainA5:active {
+.main-container .leftSide .nav li a.mainA5.active {
   color: #f021b2 !important;
 }
 

@@ -184,32 +184,28 @@
                     border-bottom: 1px solid $bg;
                     padding: 5px 15px;
 
-                    &.active {
-                        color: $color1 !important;
-                    }
-
                     &.mainA1 {
-                        &:active {
+                        &.active {
                             color: $color1 !important;
                         }
                     }
                     &.mainA2 {
-                        &:active {
+                        &.active {
                             color: $color2 !important;
                         }
                     }
                     &.mainA3 {
-                        &:active {
+                        &.active {
                             color: $color3 !important;
                         }
                     }
                     &.mainA4 {
-                        &:active {
+                        &.active {
                             color: $color4 !important;
                         }
                     }
                     &.mainA5 {
-                        &:active {
+                        &.active {
                             color: $color5 !important;
                         }
                     }
