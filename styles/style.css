@@ -83,6 +83,7 @@
 }
 
 .btn {
+  background-color: #ec1839;
   font-size: 16px;
   font-weight: 500;
   padding: 12px 35px;
@@ -90,7 +91,6 @@
   border-radius: 40px;
   display: inline-block;
   white-space: nowrap;
-  background-color: #ec1839;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
 }
@@ -173,10 +173,6 @@
 
 .dark .leftSide a {
   color: #e9e9e9e9 !important;
-}
-
-.dark .leftSide a:active {
-  color: #ec1839 !important;
 }
 
 .dark .leftSide li a {
@@ -302,6 +298,26 @@
 
 .dark .main .contact .contact-form .contactMe-subTitle {
   color: #ffffffff !important;
+}
+
+.mainbg {
+  background: #ec1839 !important;
+}
+
+.mainbg2 {
+  background: #fa5b0f !important;
+}
+
+.mainbg3 {
+  background: #37b182 !important;
+}
+
+.mainbg4 {
+  background: #1854b4 !important;
+}
+
+.mainbg5 {
+  background: #f021b2 !important;
 }
 
 * {
@@ -464,7 +480,6 @@ body {
   position: absolute;
   top: 50px;
   font-size: 30px;
-  text-transform: capitalize;
 }
 
 .main-container .leftSide .logo a {
@@ -649,7 +664,7 @@ body {
 }
 
 .main-container .leftSide .nav li a.active {
-  color: #ec1839 !important;
+  color: #fa5b0f !important;
 }
 
 .main-container .main .Homepage {

@@ -1,4 +1,13 @@
 const mainColors = () => {
+    const btn = document.querySelectorAll(".btn");
+    btn.forEach(but => {
+        but.classList.add("mainbg");
+        but.classList.remove("mainbg2");
+        but.classList.remove("mainbg3");
+        but.classList.remove("mainbg4");
+        but.classList.remove("mainbg5");
+    })
+
     const bords = document.querySelectorAll("#bord");
     bords.forEach(bord => {
         bord.classList.add("main");
@@ -7,15 +16,25 @@ const mainColors = () => {
         bord.classList.remove("mainFourth");
         bord.classList.remove("mainFifth");
     })
+
 }
 const secondColors = () => {
     const bords = document.querySelectorAll("#bord");
     bords.forEach(bord => {
-        bord.classList.add("mainSec");
         bord.classList.remove("main");
+        bord.classList.add("mainSec");
         bord.classList.remove("mainThird");
         bord.classList.remove("mainFourth");
         bord.classList.remove("mainFifth");
+    })
+
+    const btn = document.querySelectorAll(".btn");
+    btn.forEach(but => {
+        but.classList.remove("mainbg");
+        but.classList.add("mainbg2");
+        but.classList.remove("mainbg3");
+        but.classList.remove("mainbg4");
+        but.classList.remove("mainbg5");
     })
 }
 const thirdColors = () => {
@@ -23,9 +42,18 @@ const thirdColors = () => {
     bords.forEach(bord => {
         bord.classList.remove("main");
         bord.classList.remove("mainSec");
+        bord.classList.add("mainThird");
         bord.classList.remove("mainFourth");
         bord.classList.remove("mainFifth");
-        bord.classList.add("mainThird");
+    })
+
+    const btn = document.querySelectorAll(".btn");
+    btn.forEach(but => {
+        but.classList.remove("mainbg");
+        but.classList.remove("mainbg2");
+        but.classList.add("mainbg3");
+        but.classList.remove("mainbg4");
+        but.classList.remove("mainbg5");
     })
 }
 const forthColors = () => {
@@ -34,8 +62,17 @@ const forthColors = () => {
         bord.classList.remove("main");
         bord.classList.remove("mainSec");
         bord.classList.remove("mainThird");
-        bord.classList.remove("mainFifth");
         bord.classList.add("mainFourth");
+        bord.classList.remove("mainFifth");
+    })
+
+    const btn = document.querySelectorAll(".btn");
+    btn.forEach(but => {
+        but.classList.remove("mainbg");
+        but.classList.remove("mainbg2");
+        but.classList.remove("mainbg3");
+        but.classList.add("mainbg4");
+        but.classList.remove("mainbg5");
     })
 }
 const fifthColors = () => {
@@ -46,6 +83,15 @@ const fifthColors = () => {
         bord.classList.remove("mainThird");
         bord.classList.remove("mainFourth");
         bord.classList.add("mainFifth");
+    })
+
+    const btn = document.querySelectorAll(".btn");
+    btn.forEach(but => {
+        but.classList.remove("mainbg");
+        but.classList.remove("mainbg2");
+        but.classList.remove("mainbg3");
+        but.classList.remove("mainbg4");
+        but.classList.add("mainbg5");
     })
 }
 

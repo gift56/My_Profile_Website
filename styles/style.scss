@@ -29,7 +29,6 @@
             position: absolute;
             top: 50px;
             font-size: 30px;
-            text-transform: capitalize;
             a {
                 color: $bodytextcolor;
                 font-weight: 700;
@@ -186,7 +185,7 @@
                     padding: 5px 15px;
 
                     &.active {
-                        color: $color1 !important;
+                        color: $color2 !important;
                     }
                 }
             }
