@@ -211,16 +211,20 @@
   color: #e9e9e9e9 !important;
 }
 
-.dark .main .About .info-item p {
+.dark .main .About .skills h5 {
   color: #ffffffff !important;
 }
 
-.dark .main .About .info-item span {
+.dark .main .About .skills .skill-percent {
+  color: #ffffffff !important;
+}
+
+.dark .main .About .personal-info p {
+  color: #ffffffff !important;
+}
+
+.dark .main .About .personal-info span {
   color: #e9e9e9e9 !important;
-}
-
-.dark .main .About .info-item .skill-percent {
-  color: #ffffffff !important;
 }
 
 .dark .main .About .title {

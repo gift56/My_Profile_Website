@@ -153,15 +153,20 @@
             p {
                 color: $textwhite !important;
             }
-            .info-item {
+            .skills {
+                h5 {
+                    color: $white !important;
+                }
+                .skill-percent {
+                    color: $white !important;
+                }
+            }
+            .personal-info {
                 p {
                     color: $white !important;
                 }
                 span {
                     color: $textwhite !important;
-                }
-                .skill-percent {
-                    color: $white !important;
                 }
             }
             .title {
