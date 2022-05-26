@@ -30,6 +30,9 @@
             padding-top: 90px !important;
         }
     }
+    @media screen and (max-width: 475px) {
+        padding: 0 23px !important;
+    }
 }
 @keyframes slides {
     0% {
@@ -49,6 +52,10 @@
     max-width: 1300px;
     width: 100%;
     margin: 0 auto;
+
+    @media screen and (max-width: 500px) {
+        padding-top: 28vh !important;
+    }
 }
 .padding-15 {
     padding-left: 15px;
@@ -229,34 +236,34 @@
         }
     }
 }
-.mainbg{
+.mainbg {
     background: $color1 !important;
 }
-.mainbg2{
+.mainbg2 {
     background: $color2 !important;
 }
-.mainbg3{
+.mainbg3 {
     background: $color3 !important;
 }
-.mainbg4{
+.mainbg4 {
     background: $color4 !important;
 }
-.mainbg5{
+.mainbg5 {
     background: $color5 !important;
 }
 
-.mainColor{
+.mainColor {
     color: $color1 !important;
 }
-.mainColor2{
+.mainColor2 {
     color: $color2 !important;
 }
-.mainColor3{
+.mainColor3 {
     color: $color3 !important;
 }
-.mainColor4{
+.mainColor4 {
     color: $color4 !important;
 }
-.mainColor5{
+.mainColor5 {
     color: $color5 !important;
 }

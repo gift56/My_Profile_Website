@@ -21,7 +21,7 @@ icons.addEventListener("click", () => {
 
 
 let typed = new Typed(".typing", {
-    strings: ["", "Web Designer", "Software Engineer", "Aspiring Full Stack", "It's Nice Meeting You."],
+    strings: ["", "Web Designer", "Software Engineer", "Frontend Developer", "Website Inventor"],
     typeSpeed: 100,
     BackSpeed: 60,
     loop: true

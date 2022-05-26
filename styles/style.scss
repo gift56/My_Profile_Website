@@ -244,6 +244,9 @@
                                 font-weight: 700;
                                 color: $color1;
                             }
+                            @media screen and (max-width: 490px) {
+                                font-size: 25px;
+                            }
                         }
                         .Professions {
                             font-size: 30px;
@@ -251,11 +254,23 @@
                             .typing {
                                 color: $color1;
                             }
+                            @media screen and (max-width: 490px) {
+                                font-size: 25px;
+                            }
+                            @media screen and (max-width: 356px) {
+                                font-size: 20px;
+                            }
                         }
                         p {
                             font-size: 20px;
                             margin-bottom: 60px;
                             color: $textcolor;
+                            @media screen and (max-width: 490px) {
+                                font-size: 16px;
+                            }
+                            @media screen and (max-width: 356px) {
+                                font-size: 14px;
+                            }
                         }
                     }
                     .home-img {

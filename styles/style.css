@@ -40,6 +40,12 @@
   }
 }
 
+@media screen and (max-width: 475px) {
+  .section {
+    padding: 0 23px !important;
+  }
+}
+
 @-webkit-keyframes slides {
   0% {
     -webkit-transform: translateX(100%);
@@ -75,6 +81,12 @@
   max-width: 1300px;
   width: 100%;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    padding-top: 28vh !important;
+  }
 }
 
 .padding-15 {
@@ -757,6 +769,12 @@ body {
   color: #ec1839;
 }
 
+@media screen and (max-width: 490px) {
+  .main-container .main .Homepage .container .row .home-info .Welcome-greetings {
+    font-size: 25px;
+  }
+}
+
 .main-container .main .Homepage .container .row .home-info .Professions {
   font-size: 30px;
   margin: 15px 0;
@@ -766,10 +784,34 @@ body {
   color: #ec1839;
 }
 
+@media screen and (max-width: 490px) {
+  .main-container .main .Homepage .container .row .home-info .Professions {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 356px) {
+  .main-container .main .Homepage .container .row .home-info .Professions {
+    font-size: 20px;
+  }
+}
+
 .main-container .main .Homepage .container .row .home-info p {
   font-size: 20px;
   margin-bottom: 60px;
   color: #504e70;
+}
+
+@media screen and (max-width: 490px) {
+  .main-container .main .Homepage .container .row .home-info p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 356px) {
+  .main-container .main .Homepage .container .row .home-info p {
+    font-size: 14px;
+  }
 }
 
 .main-container .main .Homepage .container .row .home-img {
