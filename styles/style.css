@@ -356,7 +356,7 @@ body {
   color: #302e4d;
   line-height: 1.5;
   font-size: 16px;
-  font-family: "Poppins" sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .open {
@@ -1066,7 +1066,6 @@ body {
   position: absolute;
   top: 0;
   left: 7px;
-  background-color: #ec1839;
 }
 
 .main-container .main .About .container .about-content .timeline-box .timeline .timeline-item.mainbbg::before {
