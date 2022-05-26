@@ -801,6 +801,12 @@ body {
   }
 }
 
+@media screen and (max-width: 280px) {
+  .main-container .main .Homepage .container .row .home-info .Professions {
+    font-size: 13px;
+  }
+}
+
 .main-container .main .Homepage .container .row .home-info p {
   font-size: 20px;
   margin-bottom: 60px;
@@ -816,6 +822,12 @@ body {
 @media screen and (max-width: 356px) {
   .main-container .main .Homepage .container .row .home-info p {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .main-container .main .Homepage .container .row .home-info p {
+    font-size: 10px;
   }
 }
 
@@ -953,6 +965,12 @@ body {
   }
 }
 
+@media screen and (max-width: 280px) {
+  .main-container .main .About .container .about-content .about-text p {
+    font-size: 10px;
+  }
+}
+
 .main-container .main .About .container .about-content .personal-info {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 60%;
@@ -991,6 +1009,12 @@ body {
   }
 }
 
+@media screen and (max-width: 280px) {
+  .main-container .main .About .container .about-content .personal-info .info-item p {
+    font-size: 10px;
+  }
+}
+
 .main-container .main .About .container .about-content .personal-info .info-item p span {
   font-weight: 400;
   color: #504e70;
@@ -1008,6 +1032,12 @@ body {
 @media screen and (max-width: 470px) {
   .main-container .main .About .container .about-content .personal-info .info-item p span {
     font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .main-container .main .About .container .about-content .personal-info .info-item p span {
+    font-size: 8px;
   }
 }
 
