@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap");
 .section {
-  background-color: #e8dfec;
+  background-color: #ede6f1;
   min-height: 100vh;
   display: block;
   padding: 0 30px;
@@ -387,7 +387,7 @@ body {
   top: 60px;
   padding: 15px;
   width: 200px;
-  border: 1px solid #e8dfec;
+  border: 1px solid #ede6f1;
   background-color: #fdf7ff;
   z-index: 111111;
   -webkit-transition: all 300ms ease;
@@ -468,7 +468,7 @@ body {
   font-size: 20px;
   background-color: #fdf7ff;
   color: #302e4d;
-  border: 1px solid #e8dfec;
+  border: 1px solid #ede6f1;
   border-radius: 100%;
   margin-right: 25px;
   cursor: pointer;
@@ -483,7 +483,7 @@ body {
 .main-container .leftSide {
   width: 270px;
   background-color: #fdf7ff;
-  border-right: 1px solid #e8dfec;
+  border-right: 1px solid #ede6f1;
   padding: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -616,7 +616,7 @@ body {
   background-color: #fdf7ff;
   width: 45px;
   height: 40px;
-  border: 1px solid #e8dfec;
+  border: 1px solid #ede6f1;
   cursor: pointer;
   position: fixed;
   left: 300px;
@@ -696,7 +696,7 @@ body {
   font-size: 18px;
   font-weight: 600;
   gap: 12px;
-  border-bottom: 1px solid #e8dfec;
+  border-bottom: 1px solid #ede6f1;
   padding: 5px 15px;
 }
 
@@ -1135,7 +1135,7 @@ body {
   background-color: #fdf7ff;
   width: 100%;
   padding: 30px 15px;
-  border: 1px solid #e8dfec;
+  border: 1px solid #ede6f1;
   border-radius: 10px;
 }
 
@@ -1250,7 +1250,7 @@ body {
 
 .main-container .main .service .container .row .service-item .inner {
   background-color: #fdf7ff;
-  border: 1px solid #e8dfec;
+  border: 1px solid #ede6f1;
   padding: 30px 10px;
   border-radius: 10px;
   text-align: center;
@@ -1478,7 +1478,7 @@ body {
 .main-container .main .contact .container .row .contact-form .form-item .form-group .form-control {
   width: 100%;
   height: 50px;
-  border: 1px solid #e8dfec;
+  border: 1px solid #ede6f1;
   border-radius: 25px;
   background-color: #fdf7ff;
   padding: 10px 25px;
