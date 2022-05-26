@@ -352,6 +352,11 @@
   color: #f021b2 !important;
 }
 
+.lan {
+  color: #ec1839;
+  border-bottom: 1px solid;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -919,6 +924,12 @@ body {
   max-width: 100%;
 }
 
+@media screen and (max-width: 490px) {
+  .main-container .main .About .container .about-content .about-text {
+    padding: 0;
+  }
+}
+
 .main-container .main .About .container .about-content .about-text h3 {
   font-size: 25px;
   margin-bottom: 15px;
@@ -934,6 +945,12 @@ body {
   font-size: 16px;
   line-height: 25px;
   color: #504e70;
+}
+
+@media screen and (max-width: 490px) {
+  .main-container .main .About .container .about-content .about-text p {
+    font-size: 12px;
+  }
 }
 
 .main-container .main .About .container .about-content .personal-info {

@@ -368,6 +368,9 @@
                     flex: 0 0 100%;
                     max-width: 100%;
                     .about-text {
+                        @media screen and (max-width: 490px) {
+                            padding: 0;
+                        }
                         h3 {
                             font-size: 25px;
                             margin-bottom: 15px;
@@ -381,6 +384,9 @@
                             font-size: 16px;
                             line-height: 25px;
                             color: $textcolor;
+                            @media screen and (max-width: 490px) {
+                                font-size: 12px;
+                            }
                         }
                     }
                     .personal-info {
