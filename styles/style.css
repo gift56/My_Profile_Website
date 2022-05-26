@@ -373,6 +373,7 @@ body {
   color: #302e4d;
   line-height: 1.5;
   font-size: 16px;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .open {
@@ -808,7 +809,7 @@ body {
 
 .main-container .main .Homepage .container .row .home-info p {
   font-size: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   color: #504e70;
 }
 
