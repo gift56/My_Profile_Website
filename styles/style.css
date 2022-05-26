@@ -985,6 +985,12 @@ body {
   font-family: "Poppins" sans-serif;
 }
 
+@media screen and (max-width: 470px) {
+  .main-container .main .About .container .about-content .personal-info .info-item p {
+    font-size: 13px;
+  }
+}
+
 .main-container .main .About .container .about-content .personal-info .info-item p span {
   font-weight: 400;
   color: #504e70;
@@ -996,6 +1002,12 @@ body {
   .main-container .main .About .container .about-content .personal-info .info-item p span {
     display: block;
     margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .main-container .main .About .container .about-content .personal-info .info-item p span {
+    font-size: 11px;
   }
 }
 
@@ -1021,6 +1033,12 @@ body {
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
     max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .main-container .main .About .container .about-content .skills {
+    padding: 0;
   }
 }
 
@@ -1085,6 +1103,13 @@ body {
   }
 }
 
+@media screen and (max-width: 470px) {
+  .main-container .main .About .container .about-content .education,
+  .main-container .main .About .container .about-content .experience {
+    padding: 0;
+  }
+}
+
 .main-container .main .About .container .about-content .title {
   font-size: 28px;
   font-weight: 700;
@@ -1097,6 +1122,12 @@ body {
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
   max-width: 100%;
+}
+
+@media screen and (max-width: 470px) {
+  .main-container .main .About .container .about-content .timeline-box {
+    padding: 0;
+  }
 }
 
 .main-container .main .About .container .about-content .timeline-box .timeline {

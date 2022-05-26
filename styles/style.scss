@@ -407,6 +407,10 @@
                                 border-bottom: 1px solid $bodybackground;
                                 font-family: $bodyfamily;
 
+                                @media screen and (max-width: 470px) {
+                                    font-size: 13px;
+                                }
+
                                 span {
                                     font-weight: 400;
                                     color: $textcolor;
@@ -415,6 +419,9 @@
                                     @media screen and (max-width: 1199px) {
                                         display: block;
                                         margin-left: 0;
+                                    }
+                                    @media screen and (max-width: 470px) {
+                                        font-size: 11px;
                                     }
                                 }
                             }
@@ -433,6 +440,9 @@
                         @media screen and (max-width: 767px) {
                             flex: 0 0 100%;
                             max-width: 100%;
+                        }
+                        @media screen and (max-width: 470px) {
+                            padding: 0;
                         }
                         .skill-item {
                             flex: 0 0 100%;
@@ -480,6 +490,9 @@
                             flex: 0 0 100%;
                             max-width: 100%;
                         }
+                        @media screen and (max-width: 470px) {
+                            padding: 0;
+                        }
                     }
 
                     .title {
@@ -491,6 +504,9 @@
                     .timeline-box {
                         flex: 0 0 100%;
                         max-width: 100%;
+                        @media screen and (max-width: 470px) {
+                            padding: 0;
+                        }
                         .timeline {
                             position: relative;
                             background-color: $asidebg;
