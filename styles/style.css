@@ -1069,6 +1069,26 @@ body {
   background-color: #ec1839;
 }
 
+.main-container .main .About .container .about-content .timeline-box .timeline .timeline-item.mainbbg::before {
+  background-color: #ec1839 !important;
+}
+
+.main-container .main .About .container .about-content .timeline-box .timeline .timeline-item.mainbbg2::before {
+  background-color: #fa5b0f !important;
+}
+
+.main-container .main .About .container .about-content .timeline-box .timeline .timeline-item.mainbbg3::before {
+  background-color: #37b182 !important;
+}
+
+.main-container .main .About .container .about-content .timeline-box .timeline .timeline-item.mainbbg4::before {
+  background-color: #1854b4 !important;
+}
+
+.main-container .main .About .container .about-content .timeline-box .timeline .timeline-item.mainbbg5::before {
+  background-color: #f021b2 !important;
+}
+
 .main-container .main .About .container .about-content .timeline-box .timeline .timeline-item .circleDot {
   position: absolute;
   left: 0;
