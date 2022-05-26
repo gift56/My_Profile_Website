@@ -113,10 +113,10 @@
             }
         }
         .navbar {
-            background-color: $asidebg;
             display: none;
-            justify-content: center;
             align-items: center;
+            justify-content: center;
+            background-color: $asidebg;
             width: 45px;
             height: 40px;
             border: 1px solid $bg;
@@ -145,11 +145,11 @@
                 }
             }
             span {
+                display: inline-block;
+                position: relative;
                 width: 18px;
                 height: 2px;
                 background-color: $color1;
-                display: inline-block;
-                position: relative;
                 &::before {
                     content: " ";
                     position: absolute;
@@ -176,10 +176,10 @@
                 margin-bottom: 20px;
                 display: block;
                 a {
+                    display: flex;
                     color: $bodytextcolor;
                     font-size: 18px;
                     font-weight: 600;
-                    display: flex;
                     gap: 12px;
                     border-bottom: 1px solid $bg;
                     padding: 5px 15px;

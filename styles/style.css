@@ -601,14 +601,14 @@ body {
 }
 
 .main-container .leftSide .navbar {
-  background-color: #fdf7ff;
   display: none;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fdf7ff;
   width: 45px;
   height: 40px;
   border: 1px solid #e8dfec;
@@ -647,11 +647,11 @@ body {
 }
 
 .main-container .leftSide .navbar span {
+  display: inline-block;
+  position: relative;
   width: 18px;
   height: 2px;
   background-color: #ec1839;
-  display: inline-block;
-  position: relative;
 }
 
 .main-container .leftSide .navbar span::before {
@@ -684,12 +684,12 @@ body {
 }
 
 .main-container .leftSide .nav li a {
-  color: #302e4d;
-  font-size: 18px;
-  font-weight: 600;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  color: #302e4d;
+  font-size: 18px;
+  font-weight: 600;
   gap: 12px;
   border-bottom: 1px solid #e8dfec;
   padding: 5px 15px;
