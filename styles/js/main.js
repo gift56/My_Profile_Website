@@ -46,23 +46,12 @@ const darkMood = () => {
 }
 window.addEventListener("load", darkMood);
 
-// const removeBack = () => {
-//     section.forEach(set => {
-//         list.classList.remove('backSect');
-//     });
-// }
-
-// const addBack = () => {
-//     section.forEach(set => {
-//         list.classList.add('backSect');
-//     });
-// }
-
 const RemoveNav = () => {
     nav.forEach(list => {
         list.classList.remove('active');
     });
 }
+
 const showSection = (element) => {
     section.forEach(set => {
         set.classList.remove("active");
@@ -79,7 +68,5 @@ nav.forEach(list => {
             asideBtn();
         }
         list.classList.add("active");
-        // removeBack();
-        // addBack();
     });
 });

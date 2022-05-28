@@ -19,7 +19,7 @@
         animation: slides 1s ease;
     }
     &.backSect {
-        z-index: 1;
+        z-index: 1 !important;
     }
     @media screen and(max-width:1199px) {
         left: 0;
