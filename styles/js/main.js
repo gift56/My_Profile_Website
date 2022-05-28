@@ -54,10 +54,12 @@ const RemoveNav = () => {
 
 const showSection = (element) => {
     section.forEach(set => {
+        set.classList.remove("backSect");
         set.classList.remove("active");
     });
     const target = element.getAttribute("href").split("#")[1];
     document.querySelector("#" + target).classList.add("active");
+    document.querySelector("#" + target).classList.add("backSect");
 }
 
 nav.forEach(list => {
