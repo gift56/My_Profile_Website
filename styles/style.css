@@ -183,6 +183,10 @@
   background-color: #1854b4 !important;
 }
 
+.row .section-title h2.mainH2three::after {
+  background-color: #1854b4 !important;
+}
+
 .row .section-title h2.mainH2four::before {
   background-color: #f021b2 !important;
 }

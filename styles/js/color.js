@@ -65,6 +65,16 @@ const mainColors = () => {
         line.classList.remove("mainbbg4");
         line.classList.remove("mainbbg5");
     })
+
+    const Hways = document.querySelectorAll(".section-title h2");
+
+    Hways.forEach(h2 => {
+        h2.classList.add("mainH2");
+        h2.classList.remove("mainH2one");
+        h2.classList.remove("mainH2two");
+        h2.classList.remove("mainH2three");
+        h2.classList.remove("mainH2four");
+    })
 }
 const secondColors = () => {
     const btn = document.querySelectorAll(".backgroundChange");
@@ -132,6 +142,16 @@ const secondColors = () => {
         line.classList.remove("mainbbg3");
         line.classList.remove("mainbbg4");
         line.classList.remove("mainbbg5");
+    })
+
+    const Hways = document.querySelectorAll(".section-title h2");
+
+    Hways.forEach(h2 => {
+        h2.classList.remove("mainH2");
+        h2.classList.add("mainH2one");
+        h2.classList.remove("mainH2two");
+        h2.classList.remove("mainH2three");
+        h2.classList.remove("mainH2four");
     })
 }
 const thirdColors = () => {
@@ -203,6 +223,16 @@ const thirdColors = () => {
         line.classList.remove("mainbbg4");
         line.classList.remove("mainbbg5");
     })
+
+    const Hways = document.querySelectorAll(".section-title h2");
+
+    Hways.forEach(h2 => {
+        h2.classList.remove("mainH2");
+        h2.classList.remove("mainH2one");
+        h2.classList.add("mainH2two");
+        h2.classList.remove("mainH2three");
+        h2.classList.remove("mainH2four");
+    })
 }
 const forthColors = () => {
     const btn = document.querySelectorAll(".backgroundChange");
@@ -272,6 +302,16 @@ const forthColors = () => {
         line.classList.add("mainbbg4");
         line.classList.remove("mainbbg5");
     })
+
+    const Hways = document.querySelectorAll(".section-title h2");
+
+    Hways.forEach(h2 => {
+        h2.classList.remove("mainH2");
+        h2.classList.remove("mainH2one");
+        h2.classList.remove("mainH2two");
+        h2.classList.add("mainH2three");
+        h2.classList.remove("mainH2four");
+    })
 }
 const fifthColors = () => {
     const btn = document.querySelectorAll(".backgroundChange");
@@ -340,6 +380,16 @@ const fifthColors = () => {
         line.classList.remove("mainbbg3");
         line.classList.remove("mainbbg4");
         line.classList.add("mainbbg5");
+    })
+
+    const Hways = document.querySelectorAll(".section-title h2");
+
+    Hways.forEach(h2 => {
+        h2.classList.remove("mainH2");
+        h2.classList.remove("mainH2one");
+        h2.classList.remove("mainH2two");
+        h2.classList.remove("mainH2three");
+        h2.classList.add("mainH2four");
     })
 }
 

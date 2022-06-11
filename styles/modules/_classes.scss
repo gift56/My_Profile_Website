@@ -133,6 +133,9 @@
                 &::before {
                     background-color: $color4 !important;
                 }
+                &::after {
+                    background-color: $color4 !important;
+                }
             }
             &.mainH2four {
                 &::before {
