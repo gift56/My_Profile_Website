@@ -107,6 +107,31 @@
                 left: 0;
                 margin-top: 8px;
             }
+            &.mainbbg {
+                &::before {
+                    background-color: $color1 !important;
+                }
+            }
+            &.mainbbg2 {
+                &::before {
+                    background-color: $color2 !important;
+                }
+            }
+            &.mainbbg3 {
+                &::before {
+                    background-color: $color3 !important;
+                }
+            }
+            &.mainbbg4 {
+                &::before {
+                    background-color: $color4 !important;
+                }
+            }
+            &.mainbbg5 {
+                &::before {
+                    background-color: $color5 !important;
+                }
+            }
         }
     }
 }

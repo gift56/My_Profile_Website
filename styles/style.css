@@ -157,6 +157,26 @@
   margin-top: 8px;
 }
 
+.row .section-title h2.mainbbg::before {
+  background-color: #ec1839 !important;
+}
+
+.row .section-title h2.mainbbg2::before {
+  background-color: #fa5b0f !important;
+}
+
+.row .section-title h2.mainbbg3::before {
+  background-color: #37b182 !important;
+}
+
+.row .section-title h2.mainbbg4::before {
+  background-color: #1854b4 !important;
+}
+
+.row .section-title h2.mainbbg5::before {
+  background-color: #f021b2 !important;
+}
+
 .rounded-circle {
   border-radius: 100% !important;
 }
