@@ -140,7 +140,6 @@
   content: " ";
   height: 4px;
   width: 50px;
-  background-color: #ec1839;
   position: absolute;
   top: 100%;
   left: 0;
@@ -150,30 +149,45 @@
   content: " ";
   height: 4px;
   width: 25px;
-  background-color: #ec1839;
   position: absolute;
   top: 100%;
   left: 0;
   margin-top: 8px;
 }
 
-.row .section-title h2.mainbbg::before {
+.row .section-title h2.mainH2::before {
   background-color: #ec1839 !important;
 }
 
-.row .section-title h2.mainbbg2::before {
+.row .section-title h2.mainH2::after {
+  background-color: #ec1839 !important;
+}
+
+.row .section-title h2.mainH2one::before {
   background-color: #fa5b0f !important;
 }
 
-.row .section-title h2.mainbbg3::before {
+.row .section-title h2.mainH2one::after {
+  background-color: #fa5b0f !important;
+}
+
+.row .section-title h2.mainH2two::before {
   background-color: #37b182 !important;
 }
 
-.row .section-title h2.mainbbg4::before {
+.row .section-title h2.mainH2two::after {
+  background-color: #37b182 !important;
+}
+
+.row .section-title h2.mainH2three::before {
   background-color: #1854b4 !important;
 }
 
-.row .section-title h2.mainbbg5::before {
+.row .section-title h2.mainH2four::before {
+  background-color: #f021b2 !important;
+}
+
+.row .section-title h2.mainH2four::after {
   background-color: #f021b2 !important;
 }
 
