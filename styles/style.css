@@ -1016,6 +1016,11 @@ body {
   }
 }
 
+.main-container .main .About .container .about-content .about-text p span {
+  color: #ec1839;
+  font-weight: 600;
+}
+
 .main-container .main .About .container .about-content .personal-info {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 60%;

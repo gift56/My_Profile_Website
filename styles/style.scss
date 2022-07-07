@@ -396,6 +396,10 @@
                             @media screen and (max-width: 280px) {
                                 font-size: 10px;
                             }
+                            span {
+                                color: $color1;
+                                font-weight: 600;
+                            }
                         }
                     }
                     .personal-info {
