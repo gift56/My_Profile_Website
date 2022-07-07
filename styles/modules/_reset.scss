@@ -8,6 +8,12 @@
     list-style: none;
     border: none;
 }
+.space {
+    background-color: red;
+    margin-top: 40px;
+    padding-top: 40px;
+    visibility: hidden;
+}
 body {
     background-color: $bodybackground;
     color: $bodytextcolor;

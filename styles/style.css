@@ -406,6 +406,13 @@
   border: none;
 }
 
+.space {
+  background-color: red;
+  margin-top: 40px;
+  padding-top: 40px;
+  visibility: hidden;
+}
+
 body {
   background-color: #f2f2ff;
   color: #302e4d;
