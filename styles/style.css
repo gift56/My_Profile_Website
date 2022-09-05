@@ -1577,6 +1577,12 @@ body {
   max-width: 100%;
 }
 
+@media screen and (max-width: 340px) {
+  .main-container .main .contact .container .row .contact-form {
+    padding: 0 !important;
+  }
+}
+
 .main-container .main .contact .container .row .contact-form .column-6 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 50%;
@@ -1606,6 +1612,12 @@ body {
 
 .main-container .main .contact .container .row .contact-form .form-item {
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 340px) {
+  .main-container .main .contact .container .row .contact-form .form-item {
+    padding: 0 !important;
+  }
 }
 
 .main-container .main .contact .container .row .contact-form .form-item .form-group .form-control {

@@ -818,6 +818,9 @@
                     .contact-form {
                         flex: 0 0 100%;
                         max-width: 100%;
+                        @media screen and (max-width: 340px) {
+                            padding: 0 !important;
+                        }
                         .column-6 {
                             flex: 0 0 50%;
                             max-width: 50%;
@@ -834,6 +837,9 @@
                             height: 140px !important;
                         }
                         .form-item {
+                            @media screen and (max-width: 340px) {
+                                padding: 0 !important;
+                            }
                             margin-bottom: 30px;
                             .form-group {
                                 .form-control {
