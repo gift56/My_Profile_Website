@@ -769,6 +769,17 @@
             .container {
                 padding-top: 60px;
                 padding-bottom: 50px;
+                .social-Icons {
+                    margin-bottom: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 1rem;
+                    span {
+                        font-size: 2rem;
+                        color: $color1;
+                    }
+                }
                 .row {
                     .contactMe-infoItem {
                         flex: 0 0 25%;

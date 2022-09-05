@@ -395,24 +395,6 @@
   border-bottom: 1px solid;
 }
 
-.social-Icons {
-  margin-bottom: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 1rem;
-}
-
-.social-Icons span {
-  font-size: 2rem;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -1516,6 +1498,25 @@ body {
 .main-container .main .contact .container {
   padding-top: 60px;
   padding-bottom: 50px;
+}
+
+.main-container .main .contact .container .social-Icons {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.main-container .main .contact .container .social-Icons span {
+  font-size: 2rem;
+  color: #ec1839;
 }
 
 .main-container .main .contact .container .row .contactMe-infoItem {
